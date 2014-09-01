@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148346D014E3B1E90097A1DB /* CRMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 148346CE14E3B1E90097A1DB /* CRMatrix.cpp */; };
+		1488138214209C98004BCE14 /* CoreARUnitTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1488138114209C98004BCE14 /* CoreARUnitTest.1 */; };
+		14E816E614EB9CA700533181 /* chaincode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816D614EB9CA700533181 /* chaincode.cpp */; };
+		14E816E714EB9CA700533181 /* codeCropping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816D814EB9CA700533181 /* codeCropping.cpp */; };
+		14E816E814EB9CA700533181 /* corner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816DA14EB9CA700533181 /* corner.cpp */; };
+		14E816E914EB9CA700533181 /* euler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816DC14EB9CA700533181 /* euler.cpp */; };
+		14E816EA14EB9CA700533181 /* homography.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816DE14EB9CA700533181 /* homography.cpp */; };
+		14E816EB14EB9CA700533181 /* levenbergMarquardt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816E014EB9CA700533181 /* levenbergMarquardt.cpp */; };
+		14E816EC14EB9CA700533181 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816E214EB9CA700533181 /* main.cpp */; };
+		14E816ED14EB9CA700533181 /* rodrigues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E816E314EB9CA700533181 /* rodrigues.cpp */; };
+		14EAD69F1421C97C00106D02 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EAD69E1421C97C00106D02 /* Accelerate.framework */; };
+		14FFF4AC1423183B00AB1711 /* CRChainCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF49B1423183B00AB1711 /* CRChainCode.cpp */; };
+		14FFF4AD1423183B00AB1711 /* CRChainCodeBlob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF49D1423183B00AB1711 /* CRChainCodeBlob.cpp */; };
+		14FFF4AE1423183B00AB1711 /* CRChainCodeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF49F1423183B00AB1711 /* CRChainCodeElement.cpp */; };
+		14FFF4AF1423183B00AB1711 /* CRCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF4A11423183B00AB1711 /* CRCode.cpp */; };
+		14FFF4B01423183B00AB1711 /* CRHomogeneousVec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF4A41423183B00AB1711 /* CRHomogeneousVec3.cpp */; };
+		14FFF4B11423183B00AB1711 /* CRLevenbergMarquardt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF4A61423183B00AB1711 /* CRLevenbergMarquardt.cpp */; };
+		14FFF4B21423183B00AB1711 /* CRRodrigues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF4A81423183B00AB1711 /* CRRodrigues.cpp */; };
+		14FFF4B31423183B00AB1711 /* CRTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FFF4AA1423183B00AB1711 /* CRTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1488137914209C98004BCE14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1488138214209C98004BCE14 /* CoreARUnitTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		148346CE14E3B1E90097A1DB /* CRMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRMatrix.cpp; path = ../../CRMatrix.cpp; sourceTree = "<group>"; };
+		148346CF14E3B1E90097A1DB /* CRMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRMatrix.h; path = ../../CRMatrix.h; sourceTree = "<group>"; };
+		1488137B14209C98004BCE14 /* CoreARUnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoreARUnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1488138114209C98004BCE14 /* CoreARUnitTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CoreARUnitTest.1; sourceTree = "<group>"; };
+		14E816D314EB9CA700533181 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 001.jpg; path = ../001.jpg; sourceTree = "<group>"; };
+		14E816D414EB9CA700533181 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 002.jpg; path = ../002.jpg; sourceTree = "<group>"; };
+		14E816D514EB9CA700533181 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 003.jpg; path = ../003.jpg; sourceTree = "<group>"; };
+		14E816D614EB9CA700533181 /* chaincode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chaincode.cpp; path = ../chaincode.cpp; sourceTree = "<group>"; };
+		14E816D714EB9CA700533181 /* chaincode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chaincode.h; path = ../chaincode.h; sourceTree = "<group>"; };
+		14E816D814EB9CA700533181 /* codeCropping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = codeCropping.cpp; path = ../codeCropping.cpp; sourceTree = "<group>"; };
+		14E816D914EB9CA700533181 /* codeCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codeCropping.h; path = ../codeCropping.h; sourceTree = "<group>"; };
+		14E816DA14EB9CA700533181 /* corner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = corner.cpp; path = ../corner.cpp; sourceTree = "<group>"; };
+		14E816DB14EB9CA700533181 /* corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = corner.h; path = ../corner.h; sourceTree = "<group>"; };
+		14E816DC14EB9CA700533181 /* euler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = euler.cpp; path = ../euler.cpp; sourceTree = "<group>"; };
+		14E816DD14EB9CA700533181 /* euler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = euler.h; path = ../euler.h; sourceTree = "<group>"; };
+		14E816DE14EB9CA700533181 /* homography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = homography.cpp; path = ../homography.cpp; sourceTree = "<group>"; };
+		14E816DF14EB9CA700533181 /* homography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = homography.h; path = ../homography.h; sourceTree = "<group>"; };
+		14E816E014EB9CA700533181 /* levenbergMarquardt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = levenbergMarquardt.cpp; path = ../levenbergMarquardt.cpp; sourceTree = "<group>"; };
+		14E816E114EB9CA700533181 /* levenbergMarquardt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = levenbergMarquardt.h; path = ../levenbergMarquardt.h; sourceTree = "<group>"; };
+		14E816E214EB9CA700533181 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		14E816E314EB9CA700533181 /* rodrigues.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rodrigues.cpp; path = ../rodrigues.cpp; sourceTree = "<group>"; };
+		14E816E414EB9CA700533181 /* rodrigues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rodrigues.h; path = ../rodrigues.h; sourceTree = "<group>"; };
+		14E816E514EB9CA700533181 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = ../test.h; sourceTree = "<group>"; };
+		14EAD69E1421C97C00106D02 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		14FFF49A1423183B00AB1711 /* CoreAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreAR.h; path = ../../CoreAR.h; sourceTree = "<group>"; };
+		14FFF49B1423183B00AB1711 /* CRChainCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRChainCode.cpp; path = ../../CRChainCode.cpp; sourceTree = "<group>"; };
+		14FFF49C1423183B00AB1711 /* CRChainCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRChainCode.h; path = ../../CRChainCode.h; sourceTree = "<group>"; };
+		14FFF49D1423183B00AB1711 /* CRChainCodeBlob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = CRChainCodeBlob.cpp; path = ../../CRChainCodeBlob.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		14FFF49E1423183B00AB1711 /* CRChainCodeBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRChainCodeBlob.h; path = ../../CRChainCodeBlob.h; sourceTree = "<group>"; };
+		14FFF49F1423183B00AB1711 /* CRChainCodeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRChainCodeElement.cpp; path = ../../CRChainCodeElement.cpp; sourceTree = "<group>"; };
+		14FFF4A01423183B00AB1711 /* CRChainCodeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRChainCodeElement.h; path = ../../CRChainCodeElement.h; sourceTree = "<group>"; };
+		14FFF4A11423183B00AB1711 /* CRCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRCode.cpp; path = ../../CRCode.cpp; sourceTree = "<group>"; };
+		14FFF4A21423183B00AB1711 /* CRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCode.h; path = ../../CRCode.h; sourceTree = "<group>"; };
+		14FFF4A31423183B00AB1711 /* CRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCommon.h; path = ../../CRCommon.h; sourceTree = "<group>"; };
+		14FFF4A41423183B00AB1711 /* CRHomogeneousVec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRHomogeneousVec3.cpp; path = ../../CRHomogeneousVec3.cpp; sourceTree = "<group>"; };
+		14FFF4A51423183B00AB1711 /* CRHomogeneousVec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRHomogeneousVec3.h; path = ../../CRHomogeneousVec3.h; sourceTree = "<group>"; };
+		14FFF4A61423183B00AB1711 /* CRLevenbergMarquardt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRLevenbergMarquardt.cpp; path = ../../CRLevenbergMarquardt.cpp; sourceTree = "<group>"; };
+		14FFF4A71423183B00AB1711 /* CRLevenbergMarquardt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLevenbergMarquardt.h; path = ../../CRLevenbergMarquardt.h; sourceTree = "<group>"; };
+		14FFF4A81423183B00AB1711 /* CRRodrigues.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRRodrigues.cpp; path = ../../CRRodrigues.cpp; sourceTree = "<group>"; };
+		14FFF4A91423183B00AB1711 /* CRRodrigues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRRodrigues.h; path = ../../CRRodrigues.h; sourceTree = "<group>"; };
+		14FFF4AA1423183B00AB1711 /* CRTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CRTest.cpp; path = ../../CRTest.cpp; sourceTree = "<group>"; };
+		14FFF4AB1423183B00AB1711 /* CRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRTest.h; path = ../../CRTest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1488137814209C98004BCE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EAD69F1421C97C00106D02 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1488137014209C98004BCE14 = {
+			isa = PBXGroup;
+			children = (
+				148DF80D142196510011CF9F /* CoreAR */,
+				1488137E14209C98004BCE14 /* CoreARUnitTest */,
+				1488137C14209C98004BCE14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1488137C14209C98004BCE14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1488137B14209C98004BCE14 /* CoreARUnitTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1488137E14209C98004BCE14 /* CoreARUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				1488138114209C98004BCE14 /* CoreARUnitTest.1 */,
+				14EAD69E1421C97C00106D02 /* Accelerate.framework */,
+			);
+			path = CoreARUnitTest;
+			sourceTree = "<group>";
+		};
+		148DF80D142196510011CF9F /* CoreAR */ = {
+			isa = PBXGroup;
+			children = (
+				14E816D014EB9C8200533181 /* New Group */,
+				14FFF49A1423183B00AB1711 /* CoreAR.h */,
+				14FFF49B1423183B00AB1711 /* CRChainCode.cpp */,
+				14FFF49C1423183B00AB1711 /* CRChainCode.h */,
+				14FFF49D1423183B00AB1711 /* CRChainCodeBlob.cpp */,
+				14FFF49E1423183B00AB1711 /* CRChainCodeBlob.h */,
+				14FFF49F1423183B00AB1711 /* CRChainCodeElement.cpp */,
+				14FFF4A01423183B00AB1711 /* CRChainCodeElement.h */,
+				14FFF4A11423183B00AB1711 /* CRCode.cpp */,
+				14FFF4A21423183B00AB1711 /* CRCode.h */,
+				14FFF4A31423183B00AB1711 /* CRCommon.h */,
+				14FFF4A41423183B00AB1711 /* CRHomogeneousVec3.cpp */,
+				14FFF4A51423183B00AB1711 /* CRHomogeneousVec3.h */,
+				14FFF4A61423183B00AB1711 /* CRLevenbergMarquardt.cpp */,
+				14FFF4A71423183B00AB1711 /* CRLevenbergMarquardt.h */,
+				14FFF4A81423183B00AB1711 /* CRRodrigues.cpp */,
+				14FFF4A91423183B00AB1711 /* CRRodrigues.h */,
+				148346CE14E3B1E90097A1DB /* CRMatrix.cpp */,
+				148346CF14E3B1E90097A1DB /* CRMatrix.h */,
+				14FFF4AA1423183B00AB1711 /* CRTest.cpp */,
+				14FFF4AB1423183B00AB1711 /* CRTest.h */,
+			);
+			name = CoreAR;
+			sourceTree = "<group>";
+		};
+		14E816D014EB9C8200533181 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				14E816D314EB9CA700533181 /* 001.jpg */,
+				14E816D414EB9CA700533181 /* 002.jpg */,
+				14E816D514EB9CA700533181 /* 003.jpg */,
+				14E816D614EB9CA700533181 /* chaincode.cpp */,
+				14E816D714EB9CA700533181 /* chaincode.h */,
+				14E816D814EB9CA700533181 /* codeCropping.cpp */,
+				14E816D914EB9CA700533181 /* codeCropping.h */,
+				14E816DA14EB9CA700533181 /* corner.cpp */,
+				14E816DB14EB9CA700533181 /* corner.h */,
+				14E816DC14EB9CA700533181 /* euler.cpp */,
+				14E816DD14EB9CA700533181 /* euler.h */,
+				14E816DE14EB9CA700533181 /* homography.cpp */,
+				14E816DF14EB9CA700533181 /* homography.h */,
+				14E816E014EB9CA700533181 /* levenbergMarquardt.cpp */,
+				14E816E114EB9CA700533181 /* levenbergMarquardt.h */,
+				14E816E214EB9CA700533181 /* main.cpp */,
+				14E816E314EB9CA700533181 /* rodrigues.cpp */,
+				14E816E414EB9CA700533181 /* rodrigues.h */,
+				14E816E514EB9CA700533181 /* test.h */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1488137A14209C98004BCE14 /* CoreARUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1488138514209C98004BCE14 /* Build configuration list for PBXNativeTarget "CoreARUnitTest" */;
+			buildPhases = (
+				1488137714209C98004BCE14 /* Sources */,
+				1488137814209C98004BCE14 /* Frameworks */,
+				1488137914209C98004BCE14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreARUnitTest;
+			productName = CoreARUnitTest;
+			productReference = 1488137B14209C98004BCE14 /* CoreARUnitTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1488137214209C98004BCE14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1488137514209C98004BCE14 /* Build configuration list for PBXProject "CoreARUnitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1488137014209C98004BCE14;
+			productRefGroup = 1488137C14209C98004BCE14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1488137A14209C98004BCE14 /* CoreARUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1488137714209C98004BCE14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FFF4AC1423183B00AB1711 /* CRChainCode.cpp in Sources */,
+				14FFF4AD1423183B00AB1711 /* CRChainCodeBlob.cpp in Sources */,
+				14FFF4AE1423183B00AB1711 /* CRChainCodeElement.cpp in Sources */,
+				14FFF4AF1423183B00AB1711 /* CRCode.cpp in Sources */,
+				14FFF4B01423183B00AB1711 /* CRHomogeneousVec3.cpp in Sources */,
+				14FFF4B11423183B00AB1711 /* CRLevenbergMarquardt.cpp in Sources */,
+				14FFF4B21423183B00AB1711 /* CRRodrigues.cpp in Sources */,
+				14FFF4B31423183B00AB1711 /* CRTest.cpp in Sources */,
+				148346D014E3B1E90097A1DB /* CRMatrix.cpp in Sources */,
+				14E816E614EB9CA700533181 /* chaincode.cpp in Sources */,
+				14E816E714EB9CA700533181 /* codeCropping.cpp in Sources */,
+				14E816E814EB9CA700533181 /* corner.cpp in Sources */,
+				14E816E914EB9CA700533181 /* euler.cpp in Sources */,
+				14E816EA14EB9CA700533181 /* homography.cpp in Sources */,
+				14E816EB14EB9CA700533181 /* levenbergMarquardt.cpp in Sources */,
+				14E816EC14EB9CA700533181 /* main.cpp in Sources */,
+				14E816ED14EB9CA700533181 /* rodrigues.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1488138314209C98004BCE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ljpeg";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1488138414209C98004BCE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-ljpeg";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1488138614209C98004BCE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1488138714209C98004BCE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1488137514209C98004BCE14 /* Build configuration list for PBXProject "CoreARUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1488138314209C98004BCE14 /* Debug */,
+				1488138414209C98004BCE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1488138514209C98004BCE14 /* Build configuration list for PBXNativeTarget "CoreARUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1488138614209C98004BCE14 /* Debug */,
+				1488138714209C98004BCE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1488137214209C98004BCE14 /* Project object */;
+}

@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HardFlipperAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {784, 432}}";
+			sepNavSelRange = "{50, 0}";
+			sepNavVisRange = "{0, 312}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HardFlipperAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1064}}";
+			sepNavSelRange = "{640, 0}";
+			sepNavVisRange = "{260, 1556}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* HardFlipper */ = {
+		activeExec = 0;
+		executables = (
+			F198D1E51310DD690047D367 /* HardFlipper */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F198D1E51310DD690047D367 /* HardFlipper */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HardFlipper */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HardFlipper */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F198D1F51310DD6D0047D367 /* Code sense */;
+		executables = (
+			F198D1E51310DD690047D367 /* HardFlipper */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					606,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319894741;
+			PBXWorkspaceStateSaveDate = 319894741;
+		};
+		perUserProjectItems = {
+			F198D2E113112DC80047D367 /* PBXBookmark */ = F198D2E113112DC80047D367 /* PBXBookmark */;
+			F198D30F1311319D0047D367 /* PBXBookmark */ = F198D30F1311319D0047D367 /* PBXBookmark */;
+			F198D3101311319D0047D367 /* PBXTextBookmark */ = F198D3101311319D0047D367 /* PBXTextBookmark */;
+			F198D3A013114A3C0047D367 /* PlistBookmark */ = F198D3A013114A3C0047D367 /* PlistBookmark */;
+			F198D3B1131150490047D367 /* PBXTextBookmark */ = F198D3B1131150490047D367 /* PBXTextBookmark */;
+			F198D3B2131150490047D367 /* PBXTextBookmark */ = F198D3B2131150490047D367 /* PBXTextBookmark */;
+			F198D3B4131150490047D367 /* PBXTextBookmark */ = F198D3B4131150490047D367 /* PBXTextBookmark */;
+			F198D3B6131150490047D367 /* PBXTextBookmark */ = F198D3B6131150490047D367 /* PBXTextBookmark */;
+			F198D41E1311632C0047D367 /* PBXTextBookmark */ = F198D41E1311632C0047D367 /* PBXTextBookmark */;
+			F198D425131163E50047D367 /* PBXTextBookmark */ = F198D425131163E50047D367 /* PBXTextBookmark */;
+			F198D45C13116A620047D367 /* PBXTextBookmark */ = F198D45C13116A620047D367 /* PBXTextBookmark */;
+			F198D45D13116A620047D367 /* PBXTextBookmark */ = F198D45D13116A620047D367 /* PBXTextBookmark */;
+			F198D49B131170FD0047D367 /* PBXTextBookmark */ = F198D49B131170FD0047D367 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F198D1F41310DD6D0047D367 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* HardFlipper_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {873, 360}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 191}";
+		};
+	};
+	F198D1E51310DD690047D367 /* HardFlipper */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HardFlipper;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F198D1F41310DD6D0047D367 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F198D1F51310DD6D0047D367 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F198D1F91310E76B0047D367 /* HardFlipperController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {784, 432}}";
+			sepNavSelRange = "{251, 25}";
+			sepNavVisRange = "{0, 347}";
+		};
+	};
+	F198D1FA1310E76B0047D367 /* HardFlipperController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1190}}";
+			sepNavSelRange = "{1193, 12}";
+			sepNavVisRange = "{0, 1210}";
+		};
+	};
+	F198D2161310E8EA0047D367 /* HardFlipperView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {784, 1008}}";
+			sepNavSelRange = "{820, 19}";
+			sepNavVisRange = "{281, 826}";
+		};
+	};
+	F198D2171310E8EA0047D367 /* HardFlipperView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {509, 5334}}";
+			sepNavSelRange = "{10484, 0}";
+			sepNavVisRange = "{9662, 449}";
+			sepNavWindowFrame = "{{69, 31}, {839, 742}}";
+		};
+	};
+	F198D263131100BF0047D367 /* ImageFlipperController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {784, 432}}";
+			sepNavSelRange = "{280, 10}";
+			sepNavVisRange = "{0, 300}";
+		};
+	};
+	F198D264131100BF0047D367 /* ImageFlipperController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1638}}";
+			sepNavSelRange = "{3602, 0}";
+			sepNavVisRange = "{2408, 1012}";
+		};
+	};
+	F198D2E113112DC80047D367 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F198D2BD13112B570047D367 /* image001.jpg */;
+	};
+	F198D30F1311319D0047D367 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F198D2D313112D300047D367 /* image005.jpg */;
+	};
+	F198D3101311319D0047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* HardFlipper_Prefix.pch */;
+		name = "HardFlipper_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 191;
+		vrLoc = 0;
+	};
+	F198D3A013114A3C0047D367 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* HardFlipper-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/guoyu/Learn/iOS/HardFlipper/HardFlipper-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F198D3B1131150490047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HardFlipperAppDelegate.m */;
+		name = "HardFlipperAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 640;
+		rType = 0;
+		vrLen = 1556;
+		vrLoc = 260;
+	};
+	F198D3B2131150490047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HardFlipperAppDelegate.h */;
+		name = "HardFlipperAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 50;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 0;
+	};
+	F198D3B4131150490047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D263131100BF0047D367 /* ImageFlipperController.h */;
+		name = "ImageFlipperController.h: 14";
+		rLen = 10;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 0;
+	};
+	F198D3B6131150490047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D1F91310E76B0047D367 /* HardFlipperController.h */;
+		name = "HardFlipperController.h: 12";
+		rLen = 25;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	F198D41E1311632C0047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D1FA1310E76B0047D367 /* HardFlipperController.m */;
+		name = "HardFlipperController.m: 40";
+		rLen = 12;
+		rLoc = 1193;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 0;
+	};
+	F198D425131163E50047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D2161310E8EA0047D367 /* HardFlipperView.h */;
+		name = "HardFlipperView.h: 40";
+		rLen = 19;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 281;
+	};
+	F198D45C13116A620047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D264131100BF0047D367 /* ImageFlipperController.m */;
+		name = "ImageFlipperController.m: 109";
+		rLen = 0;
+		rLoc = 3602;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 2408;
+	};
+	F198D45D13116A620047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D2171310E8EA0047D367 /* HardFlipperView.m */;
+		name = "HardFlipperView.m: 224";
+		rLen = 0;
+		rLoc = 6682;
+		rType = 0;
+		vrLen = 1436;
+		vrLoc = 6471;
+	};
+	F198D49B131170FD0047D367 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F198D2171310E8EA0047D367 /* HardFlipperView.m */;
+		name = "HardFlipperView.m: 329";
+		rLen = 0;
+		rLoc = 10108;
+		rType = 0;
+		vrLen = 942;
+		vrLoc = 9547;
+	};
+}

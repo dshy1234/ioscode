@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Children</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>All Scanned Documents</string>
+			<key>Children</key>
+			<array>
+				<string>S2500(Just Scanned)</string>
+				<dict>
+					<key>Name</key>
+					<string>My Lists</string>
+					<key>Children</key>
+					<array>
+						<string>List1</string>
+						<string>List2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Children</key>
+					<array>
+						<string>Biz Cards</string>
+						<string>Receipts</string>
+						<string>Contract Document</string>
+					</array>
+					<key>Name</key>
+					<string>Document Type</string>
+				</dict>
+				<string>Trash</string>
+			</array>
+		</dict>
+	</array>
+	<key>Name</key>
+	<string>OVRoot</string>
+</dict>
+</plist>

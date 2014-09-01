@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046FED761411B6B800574E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046FED751411B6B800574E10 /* UIKit.framework */; };
+		046FED781411B6B800574E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046FED771411B6B800574E10 /* Foundation.framework */; };
+		046FED7A1411B6B800574E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046FED791411B6B800574E10 /* CoreGraphics.framework */; };
+		046FED801411B6B800574E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046FED7E1411B6B800574E10 /* InfoPlist.strings */; };
+		046FED821411B6B800574E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FED811411B6B800574E10 /* main.m */; };
+		046FED861411B6B800574E10 /* FontListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FED851411B6B800574E10 /* FontListAppDelegate.m */; };
+		046FED891411B6B800574E10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046FED871411B6B800574E10 /* MainWindow.xib */; };
+		046FED8C1411B6B800574E10 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FED8B1411B6B800574E10 /* FontListViewController.m */; };
+		046FED8F1411B6B900574E10 /* FontListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046FED8D1411B6B900574E10 /* FontListViewController.xib */; };
+		046FEDA31411EB2F00574E10 /* FontDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FEDA21411EB2F00574E10 /* FontDetailViewController.m */; };
+		04B597B914121D0300D93C4D /* ColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B597B814121D0300D93C4D /* ColorListViewController.m */; };
+		04B597BC14122CAA00D93C4D /* colormap.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04B597BB14122CAA00D93C4D /* colormap.txt */; };
+		04C8F68014126098005F0E67 /* WebColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8F67F14126098005F0E67 /* WebColorViewController.m */; };
+		04C8F68314126444005F0E67 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C8F68114126444005F0E67 /* doubleicon.png */; };
+		04C8F68414126444005F0E67 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C8F68214126444005F0E67 /* singleicon.png */; };
+		04D6DB7F1411FBC100C5E312 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D6DB7E1411FBC100C5E312 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046FED711411B6B800574E10 /* FontList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046FED751411B6B800574E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		046FED771411B6B800574E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		046FED791411B6B800574E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		046FED7D1411B6B800574E10 /* FontList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontList-Info.plist"; sourceTree = "<group>"; };
+		046FED7F1411B6B800574E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		046FED811411B6B800574E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046FED831411B6B800574E10 /* FontList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontList-Prefix.pch"; sourceTree = "<group>"; };
+		046FED841411B6B800574E10 /* FontListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontListAppDelegate.h; sourceTree = "<group>"; };
+		046FED851411B6B800574E10 /* FontListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontListAppDelegate.m; sourceTree = "<group>"; };
+		046FED881411B6B800574E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		046FED8A1411B6B800574E10 /* FontListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontListViewController.h; sourceTree = "<group>"; };
+		046FED8B1411B6B800574E10 /* FontListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontListViewController.m; sourceTree = "<group>"; };
+		046FED8E1411B6B900574E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FontListViewController.xib; sourceTree = "<group>"; };
+		046FEDA11411EB2F00574E10 /* FontDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontDetailViewController.h; sourceTree = "<group>"; };
+		046FEDA21411EB2F00574E10 /* FontDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontDetailViewController.m; sourceTree = "<group>"; };
+		04B597B714121D0300D93C4D /* ColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorListViewController.h; sourceTree = "<group>"; };
+		04B597B814121D0300D93C4D /* ColorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorListViewController.m; sourceTree = "<group>"; };
+		04B597BB14122CAA00D93C4D /* colormap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colormap.txt; sourceTree = "<group>"; };
+		04C8F67E14126098005F0E67 /* WebColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebColorViewController.h; sourceTree = "<group>"; };
+		04C8F67F14126098005F0E67 /* WebColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebColorViewController.m; sourceTree = "<group>"; };
+		04C8F68114126444005F0E67 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		04C8F68214126444005F0E67 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		04D6DB7E1411FBC100C5E312 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046FED6E1411B6B800574E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D6DB7F1411FBC100C5E312 /* QuartzCore.framework in Frameworks */,
+				046FED761411B6B800574E10 /* UIKit.framework in Frameworks */,
+				046FED781411B6B800574E10 /* Foundation.framework in Frameworks */,
+				046FED7A1411B6B800574E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046FED661411B6B800574E10 = {
+			isa = PBXGroup;
+			children = (
+				046FED7B1411B6B800574E10 /* FontList */,
+				046FED741411B6B800574E10 /* Frameworks */,
+				046FED721411B6B800574E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046FED721411B6B800574E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046FED711411B6B800574E10 /* FontList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046FED741411B6B800574E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D6DB7E1411FBC100C5E312 /* QuartzCore.framework */,
+				046FED751411B6B800574E10 /* UIKit.framework */,
+				046FED771411B6B800574E10 /* Foundation.framework */,
+				046FED791411B6B800574E10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		046FED7B1411B6B800574E10 /* FontList */ = {
+			isa = PBXGroup;
+			children = (
+				046FED841411B6B800574E10 /* FontListAppDelegate.h */,
+				046FED851411B6B800574E10 /* FontListAppDelegate.m */,
+				046FED8A1411B6B800574E10 /* FontListViewController.h */,
+				046FED8B1411B6B800574E10 /* FontListViewController.m */,
+				046FEDA11411EB2F00574E10 /* FontDetailViewController.h */,
+				046FEDA21411EB2F00574E10 /* FontDetailViewController.m */,
+				04B597B714121D0300D93C4D /* ColorListViewController.h */,
+				04B597B814121D0300D93C4D /* ColorListViewController.m */,
+				04C8F67E14126098005F0E67 /* WebColorViewController.h */,
+				04C8F67F14126098005F0E67 /* WebColorViewController.m */,
+				046FED7C1411B6B800574E10 /* Supporting Files */,
+			);
+			path = FontList;
+			sourceTree = "<group>";
+		};
+		046FED7C1411B6B800574E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C8F68114126444005F0E67 /* doubleicon.png */,
+				04C8F68214126444005F0E67 /* singleicon.png */,
+				04B597BB14122CAA00D93C4D /* colormap.txt */,
+				046FED871411B6B800574E10 /* MainWindow.xib */,
+				046FED8D1411B6B900574E10 /* FontListViewController.xib */,
+				046FED7D1411B6B800574E10 /* FontList-Info.plist */,
+				046FED7E1411B6B800574E10 /* InfoPlist.strings */,
+				046FED811411B6B800574E10 /* main.m */,
+				046FED831411B6B800574E10 /* FontList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046FED701411B6B800574E10 /* FontList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046FED921411B6B900574E10 /* Build configuration list for PBXNativeTarget "FontList" */;
+			buildPhases = (
+				046FED6D1411B6B800574E10 /* Sources */,
+				046FED6E1411B6B800574E10 /* Frameworks */,
+				046FED6F1411B6B800574E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontList;
+			productName = FontList;
+			productReference = 046FED711411B6B800574E10 /* FontList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046FED681411B6B800574E10 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 046FED6B1411B6B800574E10 /* Build configuration list for PBXProject "FontList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 046FED661411B6B800574E10;
+			productRefGroup = 046FED721411B6B800574E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046FED701411B6B800574E10 /* FontList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046FED6F1411B6B800574E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046FED801411B6B800574E10 /* InfoPlist.strings in Resources */,
+				046FED891411B6B800574E10 /* MainWindow.xib in Resources */,
+				046FED8F1411B6B900574E10 /* FontListViewController.xib in Resources */,
+				04B597BC14122CAA00D93C4D /* colormap.txt in Resources */,
+				04C8F68314126444005F0E67 /* doubleicon.png in Resources */,
+				04C8F68414126444005F0E67 /* singleicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046FED6D1411B6B800574E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046FED821411B6B800574E10 /* main.m in Sources */,
+				046FED861411B6B800574E10 /* FontListAppDelegate.m in Sources */,
+				046FED8C1411B6B800574E10 /* FontListViewController.m in Sources */,
+				046FEDA31411EB2F00574E10 /* FontDetailViewController.m in Sources */,
+				04B597B914121D0300D93C4D /* ColorListViewController.m in Sources */,
+				04C8F68014126098005F0E67 /* WebColorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046FED7E1411B6B800574E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046FED7F1411B6B800574E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		046FED871411B6B800574E10 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046FED881411B6B800574E10 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		046FED8D1411B6B900574E10 /* FontListViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046FED8E1411B6B900574E10 /* en */,
+			);
+			name = FontListViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046FED901411B6B900574E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046FED911411B6B900574E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046FED931411B6B900574E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontList/FontList-Prefix.pch";
+				INFOPLIST_FILE = "FontList/FontList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		046FED941411B6B900574E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontList/FontList-Prefix.pch";
+				INFOPLIST_FILE = "FontList/FontList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046FED6B1411B6B800574E10 /* Build configuration list for PBXProject "FontList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046FED901411B6B900574E10 /* Debug */,
+				046FED911411B6B900574E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046FED921411B6B900574E10 /* Build configuration list for PBXNativeTarget "FontList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046FED931411B6B900574E10 /* Debug */,
+				046FED941411B6B900574E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046FED681411B6B800574E10 /* Project object */;
+}

@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.m */; };
+		51A230BB13CE9118008E3D75 /* statusAvailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A230B913CE9118008E3D75 /* statusAvailable.png */; };
+		51A230BC13CE9118008E3D75 /* statusNone.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A230BA13CE9118008E3D75 /* statusNone.png */; };
+		51A233D913D0233A008E3D75 /* NSSOrgImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A233D813D0233A008E3D75 /* NSSOrgImageView.m */; };
+		51A233DC13D02393008E3D75 /* NSSOrgFileInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A233DB13D02393008E3D75 /* NSSOrgFileInfomation.m */; };
+		51A2DE9313C54BFB008CC8E5 /* About.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51A2DE8913C54BFB008CC8E5 /* About.JPG */; };
+		51A2DE9413C54BFB008CC8E5 /* Bottom.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51A2DE8A13C54BFB008CC8E5 /* Bottom.JPG */; };
+		51A2DE9613C54BFB008CC8E5 /* HideTable.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51A2DE8C13C54BFB008CC8E5 /* HideTable.JPG */; };
+		51A2DE9713C54BFB008CC8E5 /* Left.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51A2DE8D13C54BFB008CC8E5 /* Left.JPG */; };
+		51A2DE9813C54BFB008CC8E5 /* Right.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51A2DE8E13C54BFB008CC8E5 /* Right.JPG */; };
+		51A2E19F13C59B7E008CC8E5 /* SSOrgOutlineview.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A2E19E13C59B7E008CC8E5 /* SSOrgOutlineview.m */; };
+		51ABF1BE13D510F1000F53B4 /* S2Cloud.icns in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF1BA13D510F1000F53B4 /* S2Cloud.icns */; };
+		51ABF1BF13D510F1000F53B4 /* S2Office.icns in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF1BB13D510F1000F53B4 /* S2Office.icns */; };
+		51ABF1C013D510F1000F53B4 /* S2Print.icns in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF1BC13D510F1000F53B4 /* S2Print.icns */; };
+		51ABF1C413D511E9000F53B4 /* S2mail.icns in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF1C313D511E9000F53B4 /* S2mail.icns */; };
+		51ABF1D413D51997000F53B4 /* jp.co.pfu.ScanSnap.OrganizerInitInfo.dict in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF1D313D51997000F53B4 /* jp.co.pfu.ScanSnap.OrganizerInitInfo.dict */; };
+		51ABF2D313D579DA000F53B4 /* SSOrgTrashEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF2D213D579DA000F53B4 /* SSOrgTrashEmpty.png */; };
+		51ABF2E213D57D46000F53B4 /* SSOrgMultipleDocuments.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF2E013D57D46000F53B4 /* SSOrgMultipleDocuments.jpg */; };
+		51ABF2E313D57D46000F53B4 /* SSOrgNSFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 51ABF2E113D57D46000F53B4 /* SSOrgNSFolder.png */; };
+		51B00ECB13D405FF0043B10A /* NSSOrgTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B00ECA13D405FF0043B10A /* NSSOrgTextField.m */; };
+		51B01DD713D661250053576D /* PfuSsMon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 51B01DD613D661250053576D /* PfuSsMon.ico */; };
+		51B7A26713C69854007D4FC6 /* SettingViewControlller.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7A26613C69854007D4FC6 /* SettingViewControlller.m */; };
+		51B7A2D913C69FD9007D4FC6 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7A2D813C69FD9007D4FC6 /* GlobalData.m */; };
+		51B7A36413C6A466007D4FC6 /* ScanSnapInfo.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51B7A36313C6A466007D4FC6 /* ScanSnapInfo.plist */; };
+		51BAA1BF13DD37BF00002225 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BAA1BE13DD37BF00002225 /* QuartzCore.framework */; };
+		51C5F1D513C2DCEA00AB7076 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F15813C2D23400AB7076 /* ImageAndTextCell.m */; };
+		51C5F1D713C2DCEA00AB7076 /* SimpleNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F15513C2D1F400AB7076 /* SimpleNodeData.m */; };
+		51C5F1D913C2DCEA00AB7076 /* BundleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F07213C2A64100AB7076 /* BundleController.m */; };
+		51C5F1DB13C2DCEA00AB7076 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5F07513C2A66000AB7076 /* MainViewController.m */; };
+		51C5F1DD13C2DCF200AB7076 /* NSSOrgBundle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C5F06413C2A55600AB7076 /* NSSOrgBundle.xib */; };
+		51CC60EE13DFAD7C00123AC7 /* CDbManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CC60ED13DFAD7C00123AC7 /* CDbManger.m */; };
+		51CC614513DFBC3100123AC7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CC614413DFBC3100123AC7 /* libsqlite3.dylib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51B7A3AA13C6A8C2007D4FC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ./Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				51B7A36413C6A466007D4FC6 /* ScanSnapInfo.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewScanSnapOrganizerAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewScanSnapOrganizerAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* NewScanSnapOrganizer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewScanSnapOrganizer_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		51A230B913CE9118008E3D75 /* statusAvailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusAvailable.png; sourceTree = "<group>"; };
+		51A230BA13CE9118008E3D75 /* statusNone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusNone.png; sourceTree = "<group>"; };
+		51A233D713D0233A008E3D75 /* NSSOrgImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSOrgImageView.h; sourceTree = "<group>"; };
+		51A233D813D0233A008E3D75 /* NSSOrgImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSOrgImageView.m; sourceTree = "<group>"; };
+		51A233DA13D02393008E3D75 /* NSSOrgFileInfomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSOrgFileInfomation.h; sourceTree = "<group>"; };
+		51A233DB13D02393008E3D75 /* NSSOrgFileInfomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSOrgFileInfomation.m; sourceTree = "<group>"; };
+		51A2DE8913C54BFB008CC8E5 /* About.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = About.JPG; sourceTree = "<group>"; };
+		51A2DE8A13C54BFB008CC8E5 /* Bottom.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bottom.JPG; sourceTree = "<group>"; };
+		51A2DE8C13C54BFB008CC8E5 /* HideTable.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HideTable.JPG; sourceTree = "<group>"; };
+		51A2DE8D13C54BFB008CC8E5 /* Left.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Left.JPG; sourceTree = "<group>"; };
+		51A2DE8E13C54BFB008CC8E5 /* Right.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Right.JPG; sourceTree = "<group>"; };
+		51A2E19D13C59B7E008CC8E5 /* SSOrgOutlineview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOrgOutlineview.h; sourceTree = "<group>"; };
+		51A2E19E13C59B7E008CC8E5 /* SSOrgOutlineview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOrgOutlineview.m; sourceTree = "<group>"; };
+		51ABF1BA13D510F1000F53B4 /* S2Cloud.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = S2Cloud.icns; sourceTree = "<group>"; };
+		51ABF1BB13D510F1000F53B4 /* S2Office.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = S2Office.icns; sourceTree = "<group>"; };
+		51ABF1BC13D510F1000F53B4 /* S2Print.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = S2Print.icns; sourceTree = "<group>"; };
+		51ABF1C313D511E9000F53B4 /* S2mail.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = S2mail.icns; sourceTree = "<group>"; };
+		51ABF1D313D51997000F53B4 /* jp.co.pfu.ScanSnap.OrganizerInitInfo.dict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jp.co.pfu.ScanSnap.OrganizerInitInfo.dict; sourceTree = "<group>"; };
+		51ABF2D213D579DA000F53B4 /* SSOrgTrashEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSOrgTrashEmpty.png; sourceTree = "<group>"; };
+		51ABF2E013D57D46000F53B4 /* SSOrgMultipleDocuments.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SSOrgMultipleDocuments.jpg; sourceTree = "<group>"; };
+		51ABF2E113D57D46000F53B4 /* SSOrgNSFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSOrgNSFolder.png; sourceTree = "<group>"; };
+		51B00EC913D405FF0043B10A /* NSSOrgTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSOrgTextField.h; sourceTree = "<group>"; };
+		51B00ECA13D405FF0043B10A /* NSSOrgTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSOrgTextField.m; sourceTree = "<group>"; };
+		51B01DD613D661250053576D /* PfuSsMon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = PfuSsMon.ico; sourceTree = "<group>"; };
+		51B7A26513C69854007D4FC6 /* SettingViewControlller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewControlller.h; sourceTree = "<group>"; };
+		51B7A26613C69854007D4FC6 /* SettingViewControlller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewControlller.m; sourceTree = "<group>"; };
+		51B7A2D713C69FD9007D4FC6 /* GlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalData.h; sourceTree = "<group>"; };
+		51B7A2D813C69FD9007D4FC6 /* GlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalData.m; sourceTree = "<group>"; };
+		51B7A36313C6A466007D4FC6 /* ScanSnapInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ScanSnapInfo.plist; sourceTree = "<group>"; };
+		51BAA1BE13DD37BF00002225 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		51C5F05913C2A4E300AB7076 /* NSSOrgBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSSOrgBundle-Info.plist"; sourceTree = "<group>"; };
+		51C5F06413C2A55600AB7076 /* NSSOrgBundle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSSOrgBundle.xib; sourceTree = "<group>"; };
+		51C5F07113C2A64100AB7076 /* BundleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleController.h; sourceTree = "<group>"; };
+		51C5F07213C2A64100AB7076 /* BundleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleController.m; sourceTree = "<group>"; };
+		51C5F07413C2A66000AB7076 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		51C5F07513C2A66000AB7076 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		51C5F15413C2D1F400AB7076 /* SimpleNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleNodeData.h; sourceTree = "<group>"; };
+		51C5F15513C2D1F400AB7076 /* SimpleNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleNodeData.m; sourceTree = "<group>"; };
+		51C5F15713C2D23400AB7076 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		51C5F15813C2D23400AB7076 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		51C5F1CD13C2DCC000AB7076 /* NSSOrgBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSSOrgBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CC60EC13DFAD7C00123AC7 /* CDbManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDbManger.h; sourceTree = "<group>"; };
+		51CC60ED13DFAD7C00123AC7 /* CDbManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDbManger.m; sourceTree = "<group>"; };
+		51CC614413DFBC3100123AC7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* NewScanSnapOrganizer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NewScanSnapOrganizer-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* NewScanSnapOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewScanSnapOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51C5F1CB13C2DCC000AB7076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BAA1BF13DD37BF00002225 /* QuartzCore.framework in Frameworks */,
+				51CC614513DFBC3100123AC7 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				51BAA1BE13DD37BF00002225 /* QuartzCore.framework */,
+				51CC614413DFBC3100123AC7 /* libsqlite3.dylib */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* NewScanSnapOrganizer.app */,
+				51C5F1CD13C2DCC000AB7076 /* NSSOrgBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* NewScanSnapOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				51C5F05013C2A3E400AB7076 /* NSSOrgBundle */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				51C5F05913C2A4E300AB7076 /* NSSOrgBundle-Info.plist */,
+			);
+			name = NewScanSnapOrganizer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* NewScanSnapOrganizer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51A230B913CE9118008E3D75 /* statusAvailable.png */,
+				51A230BA13CE9118008E3D75 /* statusNone.png */,
+				51B7A36313C6A466007D4FC6 /* ScanSnapInfo.plist */,
+				8D1107310486CEB800E47090 /* NewScanSnapOrganizer-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51C5F05013C2A3E400AB7076 /* NSSOrgBundle */ = {
+			isa = PBXGroup;
+			children = (
+				51CC60EB13DFAD5600123AC7 /* DBManager */,
+				51C5F15313C2D1E500AB7076 /* Data */,
+				51C5F05213C2A41600AB7076 /* Class */,
+				51C5F05113C2A3FE00AB7076 /* Resoure */,
+			);
+			name = NSSOrgBundle;
+			sourceTree = "<group>";
+		};
+		51C5F05113C2A3FE00AB7076 /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				51B01DD613D661250053576D /* PfuSsMon.ico */,
+				51ABF2E013D57D46000F53B4 /* SSOrgMultipleDocuments.jpg */,
+				51ABF2E113D57D46000F53B4 /* SSOrgNSFolder.png */,
+				51ABF2D213D579DA000F53B4 /* SSOrgTrashEmpty.png */,
+				51ABF1D313D51997000F53B4 /* jp.co.pfu.ScanSnap.OrganizerInitInfo.dict */,
+				51ABF1C313D511E9000F53B4 /* S2mail.icns */,
+				51ABF1BA13D510F1000F53B4 /* S2Cloud.icns */,
+				51ABF1BB13D510F1000F53B4 /* S2Office.icns */,
+				51ABF1BC13D510F1000F53B4 /* S2Print.icns */,
+				51A2DE8913C54BFB008CC8E5 /* About.JPG */,
+				51A2DE8A13C54BFB008CC8E5 /* Bottom.JPG */,
+				51A2DE8C13C54BFB008CC8E5 /* HideTable.JPG */,
+				51A2DE8D13C54BFB008CC8E5 /* Left.JPG */,
+				51A2DE8E13C54BFB008CC8E5 /* Right.JPG */,
+				51C5F06413C2A55600AB7076 /* NSSOrgBundle.xib */,
+			);
+			name = Resoure;
+			sourceTree = "<group>";
+		};
+		51C5F05213C2A41600AB7076 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				51C5F07113C2A64100AB7076 /* BundleController.h */,
+				51C5F07213C2A64100AB7076 /* BundleController.m */,
+				51C5F07413C2A66000AB7076 /* MainViewController.h */,
+				51C5F07513C2A66000AB7076 /* MainViewController.m */,
+				51B7A26513C69854007D4FC6 /* SettingViewControlller.h */,
+				51B7A26613C69854007D4FC6 /* SettingViewControlller.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		51C5F15313C2D1E500AB7076 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				51C5F15713C2D23400AB7076 /* ImageAndTextCell.h */,
+				51C5F15813C2D23400AB7076 /* ImageAndTextCell.m */,
+				51C5F15413C2D1F400AB7076 /* SimpleNodeData.h */,
+				51C5F15513C2D1F400AB7076 /* SimpleNodeData.m */,
+				51A2E19D13C59B7E008CC8E5 /* SSOrgOutlineview.h */,
+				51A2E19E13C59B7E008CC8E5 /* SSOrgOutlineview.m */,
+				51B7A2D713C69FD9007D4FC6 /* GlobalData.h */,
+				51B7A2D813C69FD9007D4FC6 /* GlobalData.m */,
+				51A233D713D0233A008E3D75 /* NSSOrgImageView.h */,
+				51A233D813D0233A008E3D75 /* NSSOrgImageView.m */,
+				51A233DA13D02393008E3D75 /* NSSOrgFileInfomation.h */,
+				51A233DB13D02393008E3D75 /* NSSOrgFileInfomation.m */,
+				51B00EC913D405FF0043B10A /* NSSOrgTextField.h */,
+				51B00ECA13D405FF0043B10A /* NSSOrgTextField.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		51CC60EB13DFAD5600123AC7 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				51CC60EC13DFAD7C00123AC7 /* CDbManger.h */,
+				51CC60ED13DFAD7C00123AC7 /* CDbManger.m */,
+			);
+			name = DBManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51C5F1CC13C2DCC000AB7076 /* NSSOrgBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C5F1D013C2DCD400AB7076 /* Build configuration list for PBXNativeTarget "NSSOrgBundle" */;
+			buildPhases = (
+				51C5F1C913C2DCC000AB7076 /* Resources */,
+				51C5F1CA13C2DCC000AB7076 /* Sources */,
+				51C5F1CB13C2DCC000AB7076 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSSOrgBundle;
+			productName = NSSOrgBundle;
+			productReference = 51C5F1CD13C2DCC000AB7076 /* NSSOrgBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* NewScanSnapOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "NewScanSnapOrganizer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				51B7A3AA13C6A8C2007D4FC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewScanSnapOrganizer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = NewScanSnapOrganizer;
+			productReference = 8D1107320486CEB800E47090 /* NewScanSnapOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NewScanSnapOrganizer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* NewScanSnapOrganizer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* NewScanSnapOrganizer */,
+				51C5F1CC13C2DCC000AB7076 /* NSSOrgBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51C5F1C913C2DCC000AB7076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C5F1DD13C2DCF200AB7076 /* NSSOrgBundle.xib in Resources */,
+				51A2DE9313C54BFB008CC8E5 /* About.JPG in Resources */,
+				51A2DE9413C54BFB008CC8E5 /* Bottom.JPG in Resources */,
+				51A2DE9613C54BFB008CC8E5 /* HideTable.JPG in Resources */,
+				51A2DE9713C54BFB008CC8E5 /* Left.JPG in Resources */,
+				51A2DE9813C54BFB008CC8E5 /* Right.JPG in Resources */,
+				51ABF1BE13D510F1000F53B4 /* S2Cloud.icns in Resources */,
+				51ABF1BF13D510F1000F53B4 /* S2Office.icns in Resources */,
+				51ABF1C013D510F1000F53B4 /* S2Print.icns in Resources */,
+				51ABF1C413D511E9000F53B4 /* S2mail.icns in Resources */,
+				51ABF1D413D51997000F53B4 /* jp.co.pfu.ScanSnap.OrganizerInitInfo.dict in Resources */,
+				51ABF2D313D579DA000F53B4 /* SSOrgTrashEmpty.png in Resources */,
+				51ABF2E213D57D46000F53B4 /* SSOrgMultipleDocuments.jpg in Resources */,
+				51ABF2E313D57D46000F53B4 /* SSOrgNSFolder.png in Resources */,
+				51B01DD713D661250053576D /* PfuSsMon.ico in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				51A230BB13CE9118008E3D75 /* statusAvailable.png in Resources */,
+				51A230BC13CE9118008E3D75 /* statusNone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51C5F1CA13C2DCC000AB7076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C5F1D513C2DCEA00AB7076 /* ImageAndTextCell.m in Sources */,
+				51C5F1D713C2DCEA00AB7076 /* SimpleNodeData.m in Sources */,
+				51C5F1D913C2DCEA00AB7076 /* BundleController.m in Sources */,
+				51C5F1DB13C2DCEA00AB7076 /* MainViewController.m in Sources */,
+				51A2E19F13C59B7E008CC8E5 /* SSOrgOutlineview.m in Sources */,
+				51B7A26713C69854007D4FC6 /* SettingViewControlller.m in Sources */,
+				51B7A2D913C69FD9007D4FC6 /* GlobalData.m in Sources */,
+				51A233D913D0233A008E3D75 /* NSSOrgImageView.m in Sources */,
+				51A233DC13D02393008E3D75 /* NSSOrgFileInfomation.m in Sources */,
+				51B00ECB13D405FF0043B10A /* NSSOrgTextField.m in Sources */,
+				51CC60EE13DFAD7C00123AC7 /* CDbManger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* NewScanSnapOrganizerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51C5F1CE13C2DCC100AB7076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "NSSOrgBundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = NSSOrgBundle;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		51C5F1CF13C2DCC100AB7076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "NSSOrgBundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = NSSOrgBundle;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewScanSnapOrganizer_Prefix.pch;
+				INFOPLIST_FILE = "NewScanSnapOrganizer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = NewScanSnapOrganizer;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewScanSnapOrganizer_Prefix.pch;
+				INFOPLIST_FILE = "NewScanSnapOrganizer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = NewScanSnapOrganizer;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51C5F1D013C2DCD400AB7076 /* Build configuration list for PBXNativeTarget "NSSOrgBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C5F1CE13C2DCC100AB7076 /* Debug */,
+				51C5F1CF13C2DCC100AB7076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "NewScanSnapOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NewScanSnapOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

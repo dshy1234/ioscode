@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA4123B158F10A900BF8548 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA4123A158F10A900BF8548 /* b1.png */; };
+		FEAB27481589BD83008417AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB27471589BD83008417AE /* UIKit.framework */; };
+		FEAB274A1589BD83008417AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB27491589BD83008417AE /* Foundation.framework */; };
+		FEAB274C1589BD83008417AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB274B1589BD83008417AE /* CoreGraphics.framework */; };
+		FEAB27521589BD83008417AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEAB27501589BD83008417AE /* InfoPlist.strings */; };
+		FEAB27551589BD83008417AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB27541589BD83008417AE /* main.m */; };
+		FEAB27581589BD83008417AE /* AutoLayoutTestViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB27571589BD83008417AE /* AutoLayoutTestViewAppDelegate.m */; };
+		FEAB275B1589BD84008417AE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAB27591589BD84008417AE /* MainWindow.xib */; };
+		FEAB275E1589BD84008417AE /* AutoLayoutTestViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB275D1589BD84008417AE /* AutoLayoutTestViewViewController.m */; };
+		FEAB27611589BD84008417AE /* AutoLayoutTestViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAB275F1589BD84008417AE /* AutoLayoutTestViewViewController.xib */; };
+		FEAB27681589BD84008417AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB27471589BD83008417AE /* UIKit.framework */; };
+		FEAB27691589BD84008417AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB27491589BD83008417AE /* Foundation.framework */; };
+		FEAB276A1589BD84008417AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB274B1589BD83008417AE /* CoreGraphics.framework */; };
+		FEAB27721589BD84008417AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEAB27701589BD84008417AE /* InfoPlist.strings */; };
+		FEAB27751589BD84008417AE /* AutoLayoutTestViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FEAB27741589BD84008417AE /* AutoLayoutTestViewTests.h */; };
+		FEAB27771589BD84008417AE /* AutoLayoutTestViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB27761589BD84008417AE /* AutoLayoutTestViewTests.m */; };
+		FEAB27821589BE5C008417AE /* CTTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB27811589BE5C008417AE /* CTTestView.m */; };
+		FEAB27841589BEEE008417AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB27831589BEEE008417AE /* CoreText.framework */; };
+		FEAB27871589D688008417AE /* MarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB27861589D688008417AE /* MarkupParser.m */; };
+		FEAB27921589DCC4008417AE /* 163.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAB27901589DCC4008417AE /* 163.png */; };
+		FEAB27931589DCC4008417AE /* js_img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEAB27911589DCC4008417AE /* js_img1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEAB276B1589BD84008417AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEAB273A1589BD83008417AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEAB27421589BD83008417AE;
+			remoteInfo = AutoLayoutTestView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA4123A158F10A900BF8548 /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		FEAB27431589BD83008417AE /* AutoLayoutTestView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutTestView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB27471589BD83008417AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEAB27491589BD83008417AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEAB274B1589BD83008417AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEAB274F1589BD83008417AE /* AutoLayoutTestView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayoutTestView-Info.plist"; sourceTree = "<group>"; };
+		FEAB27511589BD83008417AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEAB27531589BD83008417AE /* AutoLayoutTestView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLayoutTestView-Prefix.pch"; sourceTree = "<group>"; };
+		FEAB27541589BD83008417AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEAB27561589BD83008417AE /* AutoLayoutTestViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTestViewAppDelegate.h; sourceTree = "<group>"; };
+		FEAB27571589BD83008417AE /* AutoLayoutTestViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestViewAppDelegate.m; sourceTree = "<group>"; };
+		FEAB275A1589BD84008417AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FEAB275C1589BD84008417AE /* AutoLayoutTestViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTestViewViewController.h; sourceTree = "<group>"; };
+		FEAB275D1589BD84008417AE /* AutoLayoutTestViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestViewViewController.m; sourceTree = "<group>"; };
+		FEAB27601589BD84008417AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AutoLayoutTestViewViewController.xib; sourceTree = "<group>"; };
+		FEAB27671589BD84008417AE /* AutoLayoutTestViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTestViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB276F1589BD84008417AE /* AutoLayoutTestViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayoutTestViewTests-Info.plist"; sourceTree = "<group>"; };
+		FEAB27711589BD84008417AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEAB27731589BD84008417AE /* AutoLayoutTestViewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLayoutTestViewTests-Prefix.pch"; sourceTree = "<group>"; };
+		FEAB27741589BD84008417AE /* AutoLayoutTestViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTestViewTests.h; sourceTree = "<group>"; };
+		FEAB27761589BD84008417AE /* AutoLayoutTestViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestViewTests.m; sourceTree = "<group>"; };
+		FEAB27801589BE5C008417AE /* CTTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTestView.h; sourceTree = "<group>"; };
+		FEAB27811589BE5C008417AE /* CTTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTestView.m; sourceTree = "<group>"; };
+		FEAB27831589BEEE008417AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FEAB27851589D688008417AE /* MarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkupParser.h; sourceTree = "<group>"; };
+		FEAB27861589D688008417AE /* MarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkupParser.m; sourceTree = "<group>"; };
+		FEAB27901589DCC4008417AE /* 163.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 163.png; sourceTree = "<group>"; };
+		FEAB27911589DCC4008417AE /* js_img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = js_img1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEAB27401589BD83008417AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB27481589BD83008417AE /* UIKit.framework in Frameworks */,
+				FEAB274A1589BD83008417AE /* Foundation.framework in Frameworks */,
+				FEAB274C1589BD83008417AE /* CoreGraphics.framework in Frameworks */,
+				FEAB27841589BEEE008417AE /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB27631589BD84008417AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB27681589BD84008417AE /* UIKit.framework in Frameworks */,
+				FEAB27691589BD84008417AE /* Foundation.framework in Frameworks */,
+				FEAB276A1589BD84008417AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEAB27381589BD83008417AE = {
+			isa = PBXGroup;
+			children = (
+				FEAB274D1589BD83008417AE /* AutoLayoutTestView */,
+				FEAB276D1589BD84008417AE /* AutoLayoutTestViewTests */,
+				FEAB27461589BD83008417AE /* Frameworks */,
+				FEAB27441589BD83008417AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEAB27441589BD83008417AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB27431589BD83008417AE /* AutoLayoutTestView.app */,
+				FEAB27671589BD84008417AE /* AutoLayoutTestViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEAB27461589BD83008417AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB27831589BEEE008417AE /* CoreText.framework */,
+				FEAB27471589BD83008417AE /* UIKit.framework */,
+				FEAB27491589BD83008417AE /* Foundation.framework */,
+				FEAB274B1589BD83008417AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAB274D1589BD83008417AE /* AutoLayoutTestView */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB27561589BD83008417AE /* AutoLayoutTestViewAppDelegate.h */,
+				FEAB27571589BD83008417AE /* AutoLayoutTestViewAppDelegate.m */,
+				FEAB27591589BD84008417AE /* MainWindow.xib */,
+				FEAB275C1589BD84008417AE /* AutoLayoutTestViewViewController.h */,
+				FEAB275D1589BD84008417AE /* AutoLayoutTestViewViewController.m */,
+				FEAB275F1589BD84008417AE /* AutoLayoutTestViewViewController.xib */,
+				FEAB27801589BE5C008417AE /* CTTestView.h */,
+				FEAB27811589BE5C008417AE /* CTTestView.m */,
+				FEAB27851589D688008417AE /* MarkupParser.h */,
+				FEAB27861589D688008417AE /* MarkupParser.m */,
+				FEAB274E1589BD83008417AE /* Supporting Files */,
+			);
+			path = AutoLayoutTestView;
+			sourceTree = "<group>";
+		};
+		FEAB274E1589BD83008417AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4123A158F10A900BF8548 /* b1.png */,
+				FEAB27901589DCC4008417AE /* 163.png */,
+				FEAB27911589DCC4008417AE /* js_img1.jpg */,
+				FEAB274F1589BD83008417AE /* AutoLayoutTestView-Info.plist */,
+				FEAB27501589BD83008417AE /* InfoPlist.strings */,
+				FEAB27531589BD83008417AE /* AutoLayoutTestView-Prefix.pch */,
+				FEAB27541589BD83008417AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEAB276D1589BD84008417AE /* AutoLayoutTestViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB27741589BD84008417AE /* AutoLayoutTestViewTests.h */,
+				FEAB27761589BD84008417AE /* AutoLayoutTestViewTests.m */,
+				FEAB276E1589BD84008417AE /* Supporting Files */,
+			);
+			path = AutoLayoutTestViewTests;
+			sourceTree = "<group>";
+		};
+		FEAB276E1589BD84008417AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB276F1589BD84008417AE /* AutoLayoutTestViewTests-Info.plist */,
+				FEAB27701589BD84008417AE /* InfoPlist.strings */,
+				FEAB27731589BD84008417AE /* AutoLayoutTestViewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEAB27421589BD83008417AE /* AutoLayoutTestView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB277A1589BD84008417AE /* Build configuration list for PBXNativeTarget "AutoLayoutTestView" */;
+			buildPhases = (
+				FEAB273F1589BD83008417AE /* Sources */,
+				FEAB27401589BD83008417AE /* Frameworks */,
+				FEAB27411589BD83008417AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayoutTestView;
+			productName = AutoLayoutTestView;
+			productReference = FEAB27431589BD83008417AE /* AutoLayoutTestView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEAB27661589BD84008417AE /* AutoLayoutTestViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB277D1589BD84008417AE /* Build configuration list for PBXNativeTarget "AutoLayoutTestViewTests" */;
+			buildPhases = (
+				FEAB27621589BD84008417AE /* Sources */,
+				FEAB27631589BD84008417AE /* Frameworks */,
+				FEAB27641589BD84008417AE /* Resources */,
+				FEAB27651589BD84008417AE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEAB276C1589BD84008417AE /* PBXTargetDependency */,
+			);
+			name = AutoLayoutTestViewTests;
+			productName = AutoLayoutTestViewTests;
+			productReference = FEAB27671589BD84008417AE /* AutoLayoutTestViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEAB273A1589BD83008417AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Flower Bridge Technology";
+			};
+			buildConfigurationList = FEAB273D1589BD83008417AE /* Build configuration list for PBXProject "AutoLayoutTestView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEAB27381589BD83008417AE;
+			productRefGroup = FEAB27441589BD83008417AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAB27421589BD83008417AE /* AutoLayoutTestView */,
+				FEAB27661589BD84008417AE /* AutoLayoutTestViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEAB27411589BD83008417AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB27521589BD83008417AE /* InfoPlist.strings in Resources */,
+				FEAB275B1589BD84008417AE /* MainWindow.xib in Resources */,
+				FEAB27611589BD84008417AE /* AutoLayoutTestViewViewController.xib in Resources */,
+				FEAB27921589DCC4008417AE /* 163.png in Resources */,
+				FEAB27931589DCC4008417AE /* js_img1.jpg in Resources */,
+				FEA4123B158F10A900BF8548 /* b1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB27641589BD84008417AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB27721589BD84008417AE /* InfoPlist.strings in Resources */,
+				FEAB27751589BD84008417AE /* AutoLayoutTestViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEAB27651589BD84008417AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEAB273F1589BD83008417AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB27551589BD83008417AE /* main.m in Sources */,
+				FEAB27581589BD83008417AE /* AutoLayoutTestViewAppDelegate.m in Sources */,
+				FEAB275E1589BD84008417AE /* AutoLayoutTestViewViewController.m in Sources */,
+				FEAB27821589BE5C008417AE /* CTTestView.m in Sources */,
+				FEAB27871589D688008417AE /* MarkupParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAB27621589BD84008417AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB27771589BD84008417AE /* AutoLayoutTestViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEAB276C1589BD84008417AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEAB27421589BD83008417AE /* AutoLayoutTestView */;
+			targetProxy = FEAB276B1589BD84008417AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEAB27501589BD83008417AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB27511589BD83008417AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEAB27591589BD84008417AE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB275A1589BD84008417AE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FEAB275F1589BD84008417AE /* AutoLayoutTestViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB27601589BD84008417AE /* en */,
+			);
+			name = AutoLayoutTestViewViewController.xib;
+			sourceTree = "<group>";
+		};
+		FEAB27701589BD84008417AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB27711589BD84008417AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEAB27781589BD84008417AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FEAB27791589BD84008417AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FEAB277B1589BD84008417AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLayoutTestView/AutoLayoutTestView-Prefix.pch";
+				INFOPLIST_FILE = "AutoLayoutTestView/AutoLayoutTestView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEAB277C1589BD84008417AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLayoutTestView/AutoLayoutTestView-Prefix.pch";
+				INFOPLIST_FILE = "AutoLayoutTestView/AutoLayoutTestView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEAB277E1589BD84008417AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoLayoutTestView.app/AutoLayoutTestView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLayoutTestViewTests/AutoLayoutTestViewTests-Prefix.pch";
+				INFOPLIST_FILE = "AutoLayoutTestViewTests/AutoLayoutTestViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FEAB277F1589BD84008417AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoLayoutTestView.app/AutoLayoutTestView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLayoutTestViewTests/AutoLayoutTestViewTests-Prefix.pch";
+				INFOPLIST_FILE = "AutoLayoutTestViewTests/AutoLayoutTestViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEAB273D1589BD83008417AE /* Build configuration list for PBXProject "AutoLayoutTestView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB27781589BD84008417AE /* Debug */,
+				FEAB27791589BD84008417AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB277A1589BD84008417AE /* Build configuration list for PBXNativeTarget "AutoLayoutTestView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB277B1589BD84008417AE /* Debug */,
+				FEAB277C1589BD84008417AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB277D1589BD84008417AE /* Build configuration list for PBXNativeTarget "AutoLayoutTestViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB277E1589BD84008417AE /* Debug */,
+				FEAB277F1589BD84008417AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEAB273A1589BD83008417AE /* Project object */;
+}

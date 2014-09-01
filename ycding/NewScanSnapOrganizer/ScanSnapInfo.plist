@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Application</key>
+	<dict>
+		<key>QuickMenu</key>
+		<integer>1</integer>
+		<key>SettingFile</key>
+		<string>jp.co.pfu.ScanSnap.SSToOrgSetting.plist</string>
+		<key>Wait</key>
+		<integer>0</integer>
+	</dict>
+	<key>Description</key>
+	<string>NewScanSnapOrganizer</string>
+	<key>Label</key>
+	<string>NewScanSnapOrganizer</string>
+	<key>Languages</key>
+	<dict>
+		<key>en</key>
+		<dict>
+			<key>Description</key>
+			<string>NewScanSnapOrganizer</string>
+			<key>Label</key>
+			<string>NewScanSnapOrganizer</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

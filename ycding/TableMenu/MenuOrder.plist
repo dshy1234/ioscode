@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>全部拍卖品</string>
+	</array>
+	<array>
+		<string>中国书画</string>
+		<string>书法</string>
+		<string>水墨书画</string>
+		<string>工笔画</string>
+		<string>油画</string>
+	</array>
+	<array>
+		<string>陶瓷</string>
+		<string>青花瓷</string>
+	</array>
+	<array>
+		<string>青铜器</string>
+	</array>
+	<array>
+		<string>石雕</string>
+	</array>
+	<array>
+		<string>彩陶</string>
+	</array>
+	<array>
+		<string>紫砂陶</string>
+	</array>
+	<array>
+		<string>玉器</string>
+	</array>
+	<array>
+		<string>漆器</string>
+	</array>
+	<array>
+		<string>珠宝翡翠</string>
+	</array>
+	<array>
+		<string>古玩杂项</string>
+	</array>
+</array>
+</plist>

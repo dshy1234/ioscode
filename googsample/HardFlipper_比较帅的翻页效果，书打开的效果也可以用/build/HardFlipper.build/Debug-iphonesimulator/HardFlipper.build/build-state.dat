@@ -1,0 +1,406 @@
+THardFlipper
+v7
+r0
+t319909941.146145
+cCheck dependencies
+cProcessInfoPlistFile /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/Info.plist HardFlipper-Info.plist
+cCompileXIB /Users/guoyu/Learn/iOS/HardFlipper/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/HardFlipper.app/image001.jpg image001.jpg
+cCpResource build/Debug-iphonesimulator/HardFlipper.app/image002.jpg image002.jpg
+cCpResource build/Debug-iphonesimulator/HardFlipper.app/image003.jpg image003.jpg
+cCpResource build/Debug-iphonesimulator/HardFlipper.app/image004.jpg image004.jpg
+cCpResource build/Debug-iphonesimulator/HardFlipper.app/image005.jpg image005.jpg
+cProcessPCH /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch.gch HardFlipper_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/main.o /Users/guoyu/Learn/iOS/HardFlipper/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperAppDelegate.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperController.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperView.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/ImageFlipperController.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper normal i386
+cGenerateDSYMFile /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app.dSYM /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper
+cTouch /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.h
+c000000004D60F4460000000000000138
+t1298199622
+s312
+i<UIKit/UIKit.h>
+i"ImageFlipperController.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m
+c000000004D6115EE0000000000000A4E
+t1298208238
+s2638
+i"HardFlipperAppDelegate.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.h
+c000000004D60F4C0000000000000015B
+t1298199744
+s347
+i<UIKit/UIKit.h>
+i"HardFlipperView.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m
+c000000004D611BB400000000000008D7
+t1298209716
+s2263
+i"HardFlipperController.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.h
+c000000004D612C2700000000000005EF
+t1298213927
+s1519
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m
+c000000004D6138B300000000000028F9
+t1298217139
+s10489
+i"HardFlipperView.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.h
+c000000004D60F400000000000000012C
+t1298199552
+s300
+i<UIKit/UIKit.h>
+i"HardFlipperController.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m
+c000000004D6131CE0000000000000F52
+t1298215374
+s3922
+i"ImageFlipperController.h"
+
+N/Users/guoyu/Learn/iOS/HardFlipper/HardFlipper_Prefix.pch
+c000000004D60A5E900000000000000BF
+t1298179561
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/guoyu/Learn/iOS/HardFlipper/MainWindow.xib
+c000000004D60A5E9000000000000211C
+t1298179561
+s8476
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app
+t1298217141
+s374
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app.dSYM
+t1298217141
+s102
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper
+t1298217141
+s44532
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/Info.plist
+t1298201034
+s766
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/MainWindow.nib
+t1298182206
+s988
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/PkgInfo
+t1298201034
+s8
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/image001.jpg
+t1298213727
+s58627
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/image002.jpg
+t1298213727
+s52857
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/image003.jpg
+t1298213727
+s62029
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/image004.jpg
+t1298213727
+s56860
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/image005.jpg
+t1298213727
+s68429
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipper.LinkFileList
+c000000004D60C99300000000000002B6
+t1298188691
+s694
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperAppDelegate.o
+t1298213985
+s52212
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperController.o
+t1298213985
+s45596
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperView.o
+t1298217141
+s77660
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/ImageFlipperController.o
+t1298215403
+s46260
+
+N/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/main.o
+t1298182207
+s6296
+
+N/Users/guoyu/Learn/iOS/HardFlipper/image001.jpg
+c000000004D612AB2000000000000E503
+t1298213554
+s58627
+
+N/Users/guoyu/Learn/iOS/HardFlipper/image002.jpg
+c000000004D612AD0000000000000CE79
+t1298213584
+s52857
+
+N/Users/guoyu/Learn/iOS/HardFlipper/image003.jpg
+c000000004D612AE9000000000000F24D
+t1298213609
+s62029
+
+N/Users/guoyu/Learn/iOS/HardFlipper/image004.jpg
+c000000004D612AFF000000000000DE1C
+t1298213631
+s56860
+
+N/Users/guoyu/Learn/iOS/HardFlipper/image005.jpg
+c000000004D612B140000000000010B4D
+t1298213652
+s68429
+
+N/Users/guoyu/Learn/iOS/HardFlipper/main.m
+c000000004D60A5E90000000000000166
+t1298179561
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch.gch
+t1298182207
+s15453392
+
+NHardFlipper-Info.plist
+c000000004D60F9C30000000000000496
+t1298201027
+s1174
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319909940#319909940#0(0"0(0#1#0"8654637920#0"0#
+
+CCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperAppDelegate.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319906785.823363
+e319906786.027201
+r1
+xCompileC
+xbuild/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperAppDelegate.o
+x/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m319906785#319906786#0(0"0(0#0#67"/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m8656683232#2056"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-generated-files.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-own-target-headers.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-all-target-headers.hmap -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-project-headers.hmap -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -I/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/include -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources/i386 -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources -include /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch -c /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperAppDelegate.m -o /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperAppDelegate.o0#
+
+CCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperController.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319906785.824523
+e319906785.922922
+r1
+xCompileC
+xbuild/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperController.o
+x/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m319906785#319906785#0(0"0(0#0#66"/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m8655512864#2054"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-generated-files.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-own-target-headers.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-all-target-headers.hmap -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-project-headers.hmap -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -I/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/include -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources/i386 -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources -include /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch -c /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperController.m -o /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperController.o0#
+
+CCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperView.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319909940.868350
+e319909941.074645
+r1
+xCompileC
+xbuild/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperView.o
+x/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m319909940#319909941#0(0"0(0#0#60"/Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m8644760864#2042"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-generated-files.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-own-target-headers.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-all-target-headers.hmap -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-project-headers.hmap -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -I/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/include -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources/i386 -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources -include /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch -c /Users/guoyu/Learn/iOS/HardFlipper/Classes/HardFlipperView.m -o /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipperView.o0#
+
+CCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/ImageFlipperController.o /Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319908203.619721
+e319908203.821897
+r1
+xCompileC
+xbuild/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/ImageFlipperController.o
+x/Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m319908203#319908203#0(0"0(0#0#67"/Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m8665409888#2056"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-generated-files.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-own-target-headers.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-all-target-headers.hmap -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-project-headers.hmap -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -I/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/include -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources/i386 -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources -include /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch -c /Users/guoyu/Learn/iOS/HardFlipper/Classes/ImageFlipperController.m -o /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/ImageFlipperController.o0#
+
+CCompileC build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/main.o /Users/guoyu/Learn/iOS/HardFlipper/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319875007.697021
+e319875007.769071
+r1
+xCompileC
+xbuild/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/main.o
+x/Users/guoyu/Learn/iOS/HardFlipper/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/guoyu/Learn/iOS/HardFlipper/main.m319875007#319875007#0(0"0(0#0#41"/Users/guoyu/Learn/iOS/HardFlipper/main.m8626896928#2012"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-generated-files.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-own-target-headers.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-all-target-headers.hmap -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-project-headers.hmap -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -I/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/include -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources/i386 -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources -include /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch -c /Users/guoyu/Learn/iOS/HardFlipper/main.m -o /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/guoyu/Learn/iOS/HardFlipper/MainWindow.xib
+s319875006.486433
+e319875006.845789
+r1
+xCompileXIB
+x/Users/guoyu/Learn/iOS/HardFlipper/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319875006#319875006#0(0"0(0#0#49"/Users/guoyu/Learn/iOS/HardFlipper/MainWindow.xib8631958624#624"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/MainWindow.nib /Users/guoyu/Learn/iOS/HardFlipper/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/HardFlipper.app/image001.jpg image001.jpg
+s319906527.295766
+e319906527.312935
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HardFlipper.app/image001.jpg
+ximage001.jpg
+lSLF07#2@17"Copy image001.jpg319906527#319906527#0(0"0(0#0#47"/Users/guoyu/Learn/iOS/HardFlipper/image001.jpg8625760544#524"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/guoyu/Learn/iOS/HardFlipper/image001.jpg /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app0#
+
+CCpResource build/Debug-iphonesimulator/HardFlipper.app/image002.jpg image002.jpg
+s319906527.296515
+e319906527.313065
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HardFlipper.app/image002.jpg
+ximage002.jpg
+lSLF07#2@17"Copy image002.jpg319906527#319906527#0(0"0(0#0#47"/Users/guoyu/Learn/iOS/HardFlipper/image002.jpg8621630144#524"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/guoyu/Learn/iOS/HardFlipper/image002.jpg /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app0#
+
+CCpResource build/Debug-iphonesimulator/HardFlipper.app/image003.jpg image003.jpg
+s319906527.297122
+e319906527.322153
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HardFlipper.app/image003.jpg
+ximage003.jpg
+lSLF07#2@17"Copy image003.jpg319906527#319906527#0(0"0(0#0#47"/Users/guoyu/Learn/iOS/HardFlipper/image003.jpg8611645696#524"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/guoyu/Learn/iOS/HardFlipper/image003.jpg /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app0#
+
+CCpResource build/Debug-iphonesimulator/HardFlipper.app/image004.jpg image004.jpg
+s319906527.297712
+e319906527.319906
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HardFlipper.app/image004.jpg
+ximage004.jpg
+lSLF07#2@17"Copy image004.jpg319906527#319906527#0(0"0(0#0#47"/Users/guoyu/Learn/iOS/HardFlipper/image004.jpg8603466624#524"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/guoyu/Learn/iOS/HardFlipper/image004.jpg /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app0#
+
+CCpResource build/Debug-iphonesimulator/HardFlipper.app/image005.jpg image005.jpg
+s319906527.298513
+e319906527.320073
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HardFlipper.app/image005.jpg
+ximage005.jpg
+lSLF07#2@17"Copy image005.jpg319906527#319906527#0(0"0(0#0#47"/Users/guoyu/Learn/iOS/HardFlipper/image005.jpg8666314464#524"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/guoyu/Learn/iOS/HardFlipper/image005.jpg /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app0#
+
+CGenerateDSYMFile /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app.dSYM /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper
+s319909941.102481
+e319909941.143226
+r1
+xGenerateDSYMFile
+x/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app.dSYM
+x/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/HardFlipper.app.dSYM build/Debug-iphonesimulator/HardFlipper.app/HardFlipper319909941#319909941#0(0"0(0#0#90"/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper8654276736#445"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper -o /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app.dSYM0#
+
+CLd /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper normal i386
+s319909941.074740
+e319909941.102385
+r1
+xLd
+x/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper
+xnormal
+xi386
+lSLF07#2@95"Link /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper319909941#319909941#0(0"0(0#0#0"8657837920#984"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -filelist /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/Objects-normal/i386/HardFlipper.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/HardFlipper0#
+
+CProcessInfoPlistFile /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/Info.plist HardFlipper-Info.plist
+s319893834.763201
+e319893834.835031
+r1
+xProcessInfoPlistFile
+x/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/Info.plist
+xHardFlipper-Info.plist
+lSLF07#2@30"Process HardFlipper-Info.plist319893834#319893834#0(0"0(0#0#57"/Users/guoyu/Learn/iOS/HardFlipper/HardFlipper-Info.plist8636894688#541"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility HardFlipper-Info.plist -genpkginfo /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app/Info.plist0#
+
+CProcessPCH /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch.gch HardFlipper_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319875006.845928
+e319875007.696910
+r1
+xProcessPCH
+x/var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch.gch
+xHardFlipper_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile HardFlipper_Prefix.pch319875006#319875007#0(0"0(0#0#57"/Users/guoyu/Learn/iOS/HardFlipper/HardFlipper_Prefix.pch8600334144#1904"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-generated-files.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-own-target-headers.hmap -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-all-target-headers.hmap -iquote /Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/HardFlipper-project-headers.hmap -F/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator -I/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/include -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources/i386 -I/Users/guoyu/Learn/iOS/HardFlipper/build/HardFlipper.build/Debug-iphonesimulator/HardFlipper.build/DerivedSources -c /Users/guoyu/Learn/iOS/HardFlipper/HardFlipper_Prefix.pch -o /var/folders/DS/DS2ZW8vEEta5bk7Mv5wylU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HardFlipper_Prefix-cfboqccakcxergbxdwjfsvjipuik/HardFlipper_Prefix.pch.gch0#
+
+CTouch /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app
+s319909941.143326
+e319909941.146100
+r1
+xTouch
+x/Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app
+lSLF07#2@84"Touch /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app319909941#319909941#0(0"0(0#0#0"8653634880#336"    cd /Users/guoyu/Learn/iOS/HardFlipper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/guoyu/Learn/iOS/HardFlipper/build/Debug-iphonesimulator/HardFlipper.app0#
+

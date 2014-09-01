@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIHTTPRequest.m
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASINetworkQueue.h
+END
+ASICacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASICacheDelegate.h
+END
+ASIProgressDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIProgressDelegate.h
+END
+ASIAuthenticationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIAuthenticationDialog.h
+END
+ASIDataDecompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIDataDecompressor.h
+END
+ASIDownloadCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIDownloadCache.m
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASINetworkQueue.m
+END
+ASIAuthenticationDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIAuthenticationDialog.m
+END
+ASIDataDecompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIDataDecompressor.m
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIFormDataRequest.h
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIFormDataRequest.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIInputStream.h
+END
+ASIHTTPRequestConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIHTTPRequestConfig.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIInputStream.m
+END
+ASIHTTPRequestDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIHTTPRequestDelegate.h
+END
+ASIDataCompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIDataCompressor.h
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIHTTPRequest.h
+END
+ASIDownloadCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIDownloadCache.h
+END
+ASIDataCompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/arch/!svn/ver/935/mac/BookSunny/BookFMHD/Library/ASIHTTPRequest/ASIDataCompressor.m
+END

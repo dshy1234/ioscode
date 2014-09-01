@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9B007516675D5B008EFA8F /* Screen Shot 2012-11-29 at 下午5.07.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F9B007416675D5B008EFA8F /* Screen Shot 2012-11-29 at 下午5.07.15.png */; };
+		FE48E13A148E124C00E56032 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE48E139148E124C00E56032 /* UIKit.framework */; };
+		FE48E13C148E124C00E56032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE48E13B148E124C00E56032 /* Foundation.framework */; };
+		FE48E13E148E124C00E56032 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE48E13D148E124C00E56032 /* CoreGraphics.framework */; };
+		FE48E144148E124C00E56032 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE48E142148E124C00E56032 /* InfoPlist.strings */; };
+		FE48E147148E124C00E56032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48E146148E124C00E56032 /* main.m */; };
+		FE48E14A148E124C00E56032 /* CEBXReaderDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48E149148E124C00E56032 /* CEBXReaderDemoAppDelegate.m */; };
+		FE48E14D148E124C00E56032 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE48E14B148E124C00E56032 /* MainWindow.xib */; };
+		FE48E150148E124C00E56032 /* FirstViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE48E14F148E124C00E56032 /* FirstViewController.mm */; };
+		FE48E153148E124C00E56032 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48E152148E124C00E56032 /* SecondViewController.m */; };
+		FE48E156148E124C00E56032 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE48E154148E124C00E56032 /* FirstView.xib */; };
+		FE48E159148E124C00E56032 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE48E157148E124C00E56032 /* SecondView.xib */; };
+		FE964D0B14972D0800283109 /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE964D0914972D0800283109 /* DroidSansFallback.ttf */; };
+		FE964D0C14972D0800283109 /* DroidSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE964D0A14972D0800283109 /* DroidSerif-Regular.ttf */; };
+		FE964D1014972D2E00283109 /* ComFun.m in Sources */ = {isa = PBXBuildFile; fileRef = FE964D0F14972D2E00283109 /* ComFun.m */; };
+		FEB83C8614AF10C000396FD6 /* CEBX_A_v1.0.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C5D14AF10BF00396FD6 /* CEBX_A_v1.0.bsg */; };
+		FEB83C8714AF10C000396FD6 /* CEBX_A_v1.1.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C5E14AF10BF00396FD6 /* CEBX_A_v1.1.bsg */; };
+		FEB83C8814AF10C000396FD6 /* CEBX_A_v1.2.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C5F14AF10BF00396FD6 /* CEBX_A_v1.2.bsg */; };
+		FEB83C8914AF10C000396FD6 /* CEBX_Full_v1.0.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6014AF10BF00396FD6 /* CEBX_Full_v1.0.bsg */; };
+		FEB83C8A14AF10C000396FD6 /* CEBX_Full_v1.1.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6114AF10BF00396FD6 /* CEBX_Full_v1.1.bsg */; };
+		FEB83C8B14AF10C000396FD6 /* CEBX_Full_v1.2.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6214AF10BF00396FD6 /* CEBX_Full_v1.2.bsg */; };
+		FEB83C8C14AF10C000396FD6 /* CEBX_M_v1.1.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6314AF10BF00396FD6 /* CEBX_M_v1.1.bsg */; };
+		FEB83C8D14AF10C000396FD6 /* CEBX_M_v1.2.bsg in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6414AF10BF00396FD6 /* CEBX_M_v1.2.bsg */; };
+		FEB83C8E14AF10C000396FD6 /* EUtoGBK.dat in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6614AF10C000396FD6 /* EUtoGBK.dat */; };
+		FEB83C8F14AF10C000396FD6 /* empty.cebx in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6714AF10C000396FD6 /* empty.cebx */; };
+		FEB83C9014AF10C000396FD6 /* Eu-bx.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6914AF10C000396FD6 /* Eu-bx.ttf */; };
+		FEB83C9114AF10C000396FD6 /* Eu-bz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6A14AF10C000396FD6 /* Eu-bz.ttf */; };
+		FEB83C9214AF10C000396FD6 /* Eu-fx.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6B14AF10C000396FD6 /* Eu-fx.ttf */; };
+		FEB83C9314AF10C000396FD6 /* Eu-fz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6C14AF10C000396FD6 /* Eu-fz.ttf */; };
+		FEB83C9414AF10C000396FD6 /* Eu-hx.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6D14AF10C000396FD6 /* Eu-hx.ttf */; };
+		FEB83C9514AF10C000396FD6 /* Eu-hz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6E14AF10C000396FD6 /* Eu-hz.ttf */; };
+		FEB83C9614AF10C000396FD6 /* Fzcob.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C6F14AF10C000396FD6 /* Fzcob.ttf */; };
+		FEB83C9714AF10C000396FD6 /* Fzcobo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7014AF10C000396FD6 /* Fzcobo.ttf */; };
+		FEB83C9814AF10C000396FD6 /* Fzcom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7114AF10C000396FD6 /* Fzcom.ttf */; };
+		FEB83C9914AF10C000396FD6 /* Fzcoo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7214AF10C000396FD6 /* Fzcoo.ttf */; };
+		FEB83C9A14AF10C000396FD6 /* Fzhv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7314AF10C000396FD6 /* Fzhv.ttf */; };
+		FEB83C9B14AF10C000396FD6 /* Fzhvb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7414AF10C000396FD6 /* Fzhvb.ttf */; };
+		FEB83C9C14AF10C000396FD6 /* Fzhvbo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7514AF10C000396FD6 /* Fzhvbo.ttf */; };
+		FEB83C9D14AF10C000396FD6 /* Fzhvo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7614AF10C000396FD6 /* Fzhvo.ttf */; };
+		FEB83C9E14AF10C000396FD6 /* Fzsy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7714AF10C000396FD6 /* Fzsy.ttf */; };
+		FEB83C9F14AF10C000396FD6 /* Fztib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7814AF10C000396FD6 /* Fztib.ttf */; };
+		FEB83CA014AF10C000396FD6 /* Fztibi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7914AF10C000396FD6 /* Fztibi.ttf */; };
+		FEB83CA114AF10C000396FD6 /* Fztii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7A14AF10C000396FD6 /* Fztii.ttf */; };
+		FEB83CA214AF10C000396FD6 /* Fztir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7B14AF10C000396FD6 /* Fztir.ttf */; };
+		FEB83CA314AF10C000396FD6 /* Fzzd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7C14AF10C000396FD6 /* Fzzd.ttf */; };
+		FEB83CA414AF10C000396FD6 /* Blocks.txt in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7E14AF10C000396FD6 /* Blocks.txt */; };
+		FEB83CA514AF10C000396FD6 /* de.txt in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C7F14AF10C000396FD6 /* de.txt */; };
+		FEB83CA614AF10C000396FD6 /* en.txt in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C8014AF10C000396FD6 /* en.txt */; };
+		FEB83CA714AF10C000396FD6 /* de-traditional.pattern in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C8214AF10C000396FD6 /* de-traditional.pattern */; };
+		FEB83CA814AF10C000396FD6 /* de.pattern in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C8314AF10C000396FD6 /* de.pattern */; };
+		FEB83CA914AF10C000396FD6 /* en.pattern in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C8414AF10C000396FD6 /* en.pattern */; };
+		FEB83CAA14AF10C000396FD6 /* en.pattern.exception in Resources */ = {isa = PBXBuildFile; fileRef = FEB83C8514AF10C000396FD6 /* en.pattern.exception */; };
+		FEB83CAC14AF10CC00396FD6 /* libkernel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB83CAB14AF10CC00396FD6 /* libkernel.a */; };
+		FEDE5ACC1491E4CB00164B7E /* CEBXEditorKernel接口文档.cebx in Resources */ = {isa = PBXBuildFile; fileRef = FEDE5ACA1491E4CB00164B7E /* CEBXEditorKernel接口文档.cebx */; };
+		FEDE5ACD1491E4CB00164B7E /* CEBXEditorKernel开发手册.cebx in Resources */ = {isa = PBXBuildFile; fileRef = FEDE5ACB1491E4CB00164B7E /* CEBXEditorKernel开发手册.cebx */; };
+		FEEBC58C148EFD2600D9B023 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEBC58B148EFD2600D9B023 /* QuartzCore.framework */; };
+		FEEBC597148EFF5800D9B023 /* CEBX_M_v1.2_Spec.cebx in Resources */ = {isa = PBXBuildFile; fileRef = FEEBC596148EFF5800D9B023 /* CEBX_M_v1.2_Spec.cebx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F9B007416675D5B008EFA8F /* Screen Shot 2012-11-29 at 下午5.07.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2012-11-29 at 下午5.07.15.png"; path = "../../../../Screen Shot 2012-11-29 at 下午5.07.15.png"; sourceTree = "<group>"; };
+		FE48E135148E124C00E56032 /* CEBXReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEBXReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE48E139148E124C00E56032 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE48E13B148E124C00E56032 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE48E13D148E124C00E56032 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE48E141148E124C00E56032 /* CEBXReaderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CEBXReaderDemo-Info.plist"; sourceTree = "<group>"; };
+		FE48E143148E124C00E56032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE48E145148E124C00E56032 /* CEBXReaderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CEBXReaderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FE48E146148E124C00E56032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE48E148148E124C00E56032 /* CEBXReaderDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEBXReaderDemoAppDelegate.h; sourceTree = "<group>"; };
+		FE48E149148E124C00E56032 /* CEBXReaderDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEBXReaderDemoAppDelegate.m; sourceTree = "<group>"; };
+		FE48E14C148E124C00E56032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FE48E14E148E124C00E56032 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FE48E14F148E124C00E56032 /* FirstViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FirstViewController.mm; sourceTree = "<group>"; };
+		FE48E151148E124C00E56032 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FE48E152148E124C00E56032 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FE48E155148E124C00E56032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		FE48E158148E124C00E56032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		FE964D0914972D0800283109 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallback.ttf; sourceTree = "<group>"; };
+		FE964D0A14972D0800283109 /* DroidSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSerif-Regular.ttf"; sourceTree = "<group>"; };
+		FE964D0E14972D2E00283109 /* ComFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComFun.h; sourceTree = "<group>"; };
+		FE964D0F14972D2E00283109 /* ComFun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComFun.m; sourceTree = "<group>"; };
+		FEB83BA814AF10B900396FD6 /* ActionTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTypeDef.h; sourceTree = "<group>"; };
+		FEB83BA914AF10B900396FD6 /* ByteAlignPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteAlignPop.h; sourceTree = "<group>"; };
+		FEB83BAA14AF10B900396FD6 /* ByteAlignPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteAlignPush.h; sourceTree = "<group>"; };
+		FEB83BAB14AF10B900396FD6 /* CEBXEditorAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXEditorAPI.h; sourceTree = "<group>"; };
+		FEB83BAC14AF10B900396FD6 /* CEBXEditorDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXEditorDef.h; sourceTree = "<group>"; };
+		FEB83BAD14AF10B900396FD6 /* CEBXEKCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXEKCode.h; sourceTree = "<group>"; };
+		FEB83BAE14AF10B900396FD6 /* CEBXRetCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXRetCode.h; sourceTree = "<group>"; };
+		FEB83BB014AF10B900396FD6 /* CEBXEditorEditAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXEditorEditAPI.h; sourceTree = "<group>"; };
+		FEB83BB114AF10B900396FD6 /* XEKActionEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionEditor.h; sourceTree = "<group>"; };
+		FEB83BB214AF10B900396FD6 /* XEKActionGotoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionGotoEditor.h; sourceTree = "<group>"; };
+		FEB83BB314AF10B900396FD6 /* XEKActionGotoREditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionGotoREditor.h; sourceTree = "<group>"; };
+		FEB83BB414AF10B900396FD6 /* XEKActionLaunchEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionLaunchEditor.h; sourceTree = "<group>"; };
+		FEB83BB514AF10B900396FD6 /* XEKActionMovieEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionMovieEditor.h; sourceTree = "<group>"; };
+		FEB83BB614AF10B900396FD6 /* XEKActionResetEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionResetEditor.h; sourceTree = "<group>"; };
+		FEB83BB714AF10B900396FD6 /* XEKActionRunScriptEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionRunScriptEditor.h; sourceTree = "<group>"; };
+		FEB83BB814AF10B900396FD6 /* XEKActionsEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionsEditor.h; sourceTree = "<group>"; };
+		FEB83BB914AF10B900396FD6 /* XEKActionSoundEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionSoundEditor.h; sourceTree = "<group>"; };
+		FEB83BBA14AF10B900396FD6 /* XEKActionSubmitEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionSubmitEditor.h; sourceTree = "<group>"; };
+		FEB83BBB14AF10B900396FD6 /* XEKActionURIEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionURIEditor.h; sourceTree = "<group>"; };
+		FEB83BBC14AF10B900396FD6 /* XEKAnimationEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAnimationEditor.h; sourceTree = "<group>"; };
+		FEB83BBD14AF10B900396FD6 /* XEKAnimationOpEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAnimationOpEditor.h; sourceTree = "<group>"; };
+		FEB83BBE14AF10B900396FD6 /* XEKAnnotationEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAnnotationEditor.h; sourceTree = "<group>"; };
+		FEB83BBF14AF10B900396FD6 /* XEKAudioEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAudioEditor.h; sourceTree = "<group>"; };
+		FEB83BC014AF10B900396FD6 /* XEKBaseUnitEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKBaseUnitEditor.h; sourceTree = "<group>"; };
+		FEB83BC114AF10B900396FD6 /* XEKButtonEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKButtonEditor.h; sourceTree = "<group>"; };
+		FEB83BC214AF10B900396FD6 /* XEKCEBXFileEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCEBXFileEditor.h; sourceTree = "<group>"; };
+		FEB83BC314AF10B900396FD6 /* XEKCheckBoxEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCheckBoxEditor.h; sourceTree = "<group>"; };
+		FEB83BC414AF10B900396FD6 /* XEKClipEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKClipEditor.h; sourceTree = "<group>"; };
+		FEB83BC514AF10B900396FD6 /* XEKColorAnimationOpEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKColorAnimationOpEditor.h; sourceTree = "<group>"; };
+		FEB83BC614AF10B900396FD6 /* XEKColorSpaceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKColorSpaceEditor.h; sourceTree = "<group>"; };
+		FEB83BC714AF10B900396FD6 /* XEKCompositeGraphicUnitEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCompositeGraphicUnitEditor.h; sourceTree = "<group>"; };
+		FEB83BC814AF10B900396FD6 /* XEKContentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKContentEditor.h; sourceTree = "<group>"; };
+		FEB83BC914AF10B900396FD6 /* XEKControlEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKControlEditor.h; sourceTree = "<group>"; };
+		FEB83BCA14AF10B900396FD6 /* XEKControlStyleEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKControlStyleEditor.h; sourceTree = "<group>"; };
+		FEB83BCB14AF10B900396FD6 /* XEKDocEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDocEditor.h; sourceTree = "<group>"; };
+		FEB83BCC14AF10B900396FD6 /* XEKDocInfoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDocInfoEditor.h; sourceTree = "<group>"; };
+		FEB83BCD14AF10B900396FD6 /* XEKDrawParamEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDrawParamEditor.h; sourceTree = "<group>"; };
+		FEB83BCE14AF10B900396FD6 /* XEKDropdownListEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDropdownListEditor.h; sourceTree = "<group>"; };
+		FEB83BCF14AF10B900396FD6 /* XEKFontEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFontEditor.h; sourceTree = "<group>"; };
+		FEB83BD014AF10B900396FD6 /* XEKFormBorderEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFormBorderEditor.h; sourceTree = "<group>"; };
+		FEB83BD114AF10B900396FD6 /* XEKFormEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFormEditor.h; sourceTree = "<group>"; };
+		FEB83BD214AF10B900396FD6 /* XEKFormsEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFormsEditor.h; sourceTree = "<group>"; };
+		FEB83BD314AF10B900396FD6 /* XEKFragmentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFragmentEditor.h; sourceTree = "<group>"; };
+		FEB83BD414AF10B900396FD6 /* XEKGraphicRefEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKGraphicRefEditor.h; sourceTree = "<group>"; };
+		FEB83BD514AF10B900396FD6 /* XEKGraphicUnitEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKGraphicUnitEditor.h; sourceTree = "<group>"; };
+		FEB83BD614AF10B900396FD6 /* XEKImageEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKImageEditor.h; sourceTree = "<group>"; };
+		FEB83BD714AF10B900396FD6 /* XEKImageFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKImageFieldEditor.h; sourceTree = "<group>"; };
+		FEB83BD814AF10B900396FD6 /* XEKLayerEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKLayerEditor.h; sourceTree = "<group>"; };
+		FEB83BD914AF10B900396FD6 /* XEKListBoxEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKListBoxEditor.h; sourceTree = "<group>"; };
+		FEB83BDA14AF10B900396FD6 /* XEKMarkerEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKMarkerEditor.h; sourceTree = "<group>"; };
+		FEB83BDB14AF10B900396FD6 /* XEKMotionAnimationOpEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKMotionAnimationOpEditor.h; sourceTree = "<group>"; };
+		FEB83BDC14AF10B900396FD6 /* XEKOutlineElemEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKOutlineElemEditor.h; sourceTree = "<group>"; };
+		FEB83BDD14AF10B900396FD6 /* XEKOutlinesEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKOutlinesEditor.h; sourceTree = "<group>"; };
+		FEB83BDE14AF10B900396FD6 /* XEKPageBlockEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPageBlockEditor.h; sourceTree = "<group>"; };
+		FEB83BDF14AF10B900396FD6 /* XEKPageEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPageEditor.h; sourceTree = "<group>"; };
+		FEB83BE014AF10B900396FD6 /* XEKParagraphEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKParagraphEditor.h; sourceTree = "<group>"; };
+		FEB83BE114AF10B900396FD6 /* XEKPathEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPathEditor.h; sourceTree = "<group>"; };
+		FEB83BE214AF10B900396FD6 /* XEKPatternEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPatternEditor.h; sourceTree = "<group>"; };
+		FEB83BE314AF10B900396FD6 /* XEKPieceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPieceEditor.h; sourceTree = "<group>"; };
+		FEB83BE414AF10B900396FD6 /* XEKPieceStyleEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPieceStyleEditor.h; sourceTree = "<group>"; };
+		FEB83BE514AF10B900396FD6 /* XEKRadioEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRadioEditor.h; sourceTree = "<group>"; };
+		FEB83BE614AF10B900396FD6 /* XEKRadioGroupEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRadioGroupEditor.h; sourceTree = "<group>"; };
+		FEB83BE714AF10B900396FD6 /* XEKReferenceObjListEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKReferenceObjListEditor.h; sourceTree = "<group>"; };
+		FEB83BE814AF10B900396FD6 /* XEKRegionAreaEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRegionAreaEditor.h; sourceTree = "<group>"; };
+		FEB83BE914AF10B900396FD6 /* XEKResourceCollectionEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKResourceCollectionEditor.h; sourceTree = "<group>"; };
+		FEB83BEA14AF10B900396FD6 /* XEKResourceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKResourceEditor.h; sourceTree = "<group>"; };
+		FEB83BEB14AF10B900396FD6 /* XEKRichTextFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRichTextFieldEditor.h; sourceTree = "<group>"; };
+		FEB83BEC14AF10B900396FD6 /* XEKRubyGroupEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRubyGroupEditor.h; sourceTree = "<group>"; };
+		FEB83BED14AF10B900396FD6 /* XEKScriptEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKScriptEditor.h; sourceTree = "<group>"; };
+		FEB83BEE14AF10B900396FD6 /* XEKSectionEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSectionEditor.h; sourceTree = "<group>"; };
+		FEB83BEF14AF10B900396FD6 /* XEKSetAnimationOpEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSetAnimationOpEditor.h; sourceTree = "<group>"; };
+		FEB83BF014AF10B900396FD6 /* XEKShadingEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKShadingEditor.h; sourceTree = "<group>"; };
+		FEB83BF114AF10B900396FD6 /* XEKSimpleAnimationOpEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSimpleAnimationOpEditor.h; sourceTree = "<group>"; };
+		FEB83BF214AF10B900396FD6 /* XEKStoryEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStoryEditor.h; sourceTree = "<group>"; };
+		FEB83BF314AF10B900396FD6 /* XEKStructureDocEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStructureDocEditor.h; sourceTree = "<group>"; };
+		FEB83BF414AF10B900396FD6 /* XEKStyleTableEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStyleTableEditor.h; sourceTree = "<group>"; };
+		FEB83BF514AF10B900396FD6 /* XEKTableEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTableEditor.h; sourceTree = "<group>"; };
+		FEB83BF614AF10B900396FD6 /* XEKTemplatePageEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTemplatePageEditor.h; sourceTree = "<group>"; };
+		FEB83BF714AF10B900396FD6 /* XEKTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTextEditor.h; sourceTree = "<group>"; };
+		FEB83BF814AF10B900396FD6 /* XEKTextFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTextFieldEditor.h; sourceTree = "<group>"; };
+		FEB83BF914AF10B900396FD6 /* XEKTimeLineEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTimeLineEditor.h; sourceTree = "<group>"; };
+		FEB83BFA14AF10B900396FD6 /* XEKVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKVideoEditor.h; sourceTree = "<group>"; };
+		FEB83BFB14AF10B900396FD6 /* KernelDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelDef.h; sourceTree = "<group>"; };
+		FEB83BFD14AF10B900396FD6 /* CEBXEditorObjAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXEditorObjAPI.h; sourceTree = "<group>"; };
+		FEB83BFE14AF10B900396FD6 /* XEKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAction.h; sourceTree = "<group>"; };
+		FEB83BFF14AF10B900396FD6 /* XEKActionGoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionGoto.h; sourceTree = "<group>"; };
+		FEB83C0014AF10B900396FD6 /* XEKActionGotoR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionGotoR.h; sourceTree = "<group>"; };
+		FEB83C0114AF10B900396FD6 /* XEKActionLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionLaunch.h; sourceTree = "<group>"; };
+		FEB83C0214AF10B900396FD6 /* XEKActionMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionMovie.h; sourceTree = "<group>"; };
+		FEB83C0314AF10B900396FD6 /* XEKActionOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionOp.h; sourceTree = "<group>"; };
+		FEB83C0414AF10B900396FD6 /* XEKActionReset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionReset.h; sourceTree = "<group>"; };
+		FEB83C0514AF10B900396FD6 /* XEKActionRunScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionRunScript.h; sourceTree = "<group>"; };
+		FEB83C0614AF10B900396FD6 /* XEKActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActions.h; sourceTree = "<group>"; };
+		FEB83C0714AF10B900396FD6 /* XEKActionSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionSound.h; sourceTree = "<group>"; };
+		FEB83C0814AF10B900396FD6 /* XEKActionSubmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionSubmit.h; sourceTree = "<group>"; };
+		FEB83C0914AF10B900396FD6 /* XEKActionURI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKActionURI.h; sourceTree = "<group>"; };
+		FEB83C0A14AF10B900396FD6 /* XEKAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAnimation.h; sourceTree = "<group>"; };
+		FEB83C0B14AF10B900396FD6 /* XEKAnimationOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAnimationOp.h; sourceTree = "<group>"; };
+		FEB83C0C14AF10B900396FD6 /* XEKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAnnotation.h; sourceTree = "<group>"; };
+		FEB83C0D14AF10B900396FD6 /* XEKAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKAudio.h; sourceTree = "<group>"; };
+		FEB83C0E14AF10B900396FD6 /* XEKBaseUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKBaseUnit.h; sourceTree = "<group>"; };
+		FEB83C0F14AF10B900396FD6 /* XEKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKButton.h; sourceTree = "<group>"; };
+		FEB83C1014AF10B900396FD6 /* XEKCEBXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCEBXFile.h; sourceTree = "<group>"; };
+		FEB83C1114AF10B900396FD6 /* XEKCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCheckBox.h; sourceTree = "<group>"; };
+		FEB83C1214AF10B900396FD6 /* XEKClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKClip.h; sourceTree = "<group>"; };
+		FEB83C1314AF10B900396FD6 /* XEKColorAnimationOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKColorAnimationOp.h; sourceTree = "<group>"; };
+		FEB83C1414AF10B900396FD6 /* XEKColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKColorSpace.h; sourceTree = "<group>"; };
+		FEB83C1514AF10B900396FD6 /* XEKCompositeGraphicUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCompositeGraphicUnit.h; sourceTree = "<group>"; };
+		FEB83C1614AF10B900396FD6 /* XEKContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKContent.h; sourceTree = "<group>"; };
+		FEB83C1714AF10B900396FD6 /* XEKControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKControl.h; sourceTree = "<group>"; };
+		FEB83C1814AF10B900396FD6 /* XEKControlStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKControlStyle.h; sourceTree = "<group>"; };
+		FEB83C1914AF10B900396FD6 /* XEKCoreDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCoreDependency.h; sourceTree = "<group>"; };
+		FEB83C1A14AF10B900396FD6 /* XEKDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDoc.h; sourceTree = "<group>"; };
+		FEB83C1B14AF10B900396FD6 /* XEKDocInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDocInfo.h; sourceTree = "<group>"; };
+		FEB83C1C14AF10B900396FD6 /* XEKDrawParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDrawParam.h; sourceTree = "<group>"; };
+		FEB83C1D14AF10B900396FD6 /* XEKDropdownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDropdownList.h; sourceTree = "<group>"; };
+		FEB83C1E14AF10B900396FD6 /* XEKEnumerators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKEnumerators.h; sourceTree = "<group>"; };
+		FEB83C1F14AF10B900396FD6 /* XEKFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFont.h; sourceTree = "<group>"; };
+		FEB83C2014AF10B900396FD6 /* XEKForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKForm.h; sourceTree = "<group>"; };
+		FEB83C2114AF10B900396FD6 /* XEKFormBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFormBorder.h; sourceTree = "<group>"; };
+		FEB83C2214AF10B900396FD6 /* XEKForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKForms.h; sourceTree = "<group>"; };
+		FEB83C2314AF10B900396FD6 /* XEKFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFragment.h; sourceTree = "<group>"; };
+		FEB83C2414AF10B900396FD6 /* XEKFragmentComp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKFragmentComp.h; sourceTree = "<group>"; };
+		FEB83C2514AF10B900396FD6 /* XEKGraphicRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKGraphicRef.h; sourceTree = "<group>"; };
+		FEB83C2614AF10B900396FD6 /* XEKGraphicRefEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKGraphicRefEnumerator.h; sourceTree = "<group>"; };
+		FEB83C2714AF10B900396FD6 /* XEKGraphicUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKGraphicUnit.h; sourceTree = "<group>"; };
+		FEB83C2814AF10B900396FD6 /* XEKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKImage.h; sourceTree = "<group>"; };
+		FEB83C2914AF10B900396FD6 /* XEKImageEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKImageEnumerator.h; sourceTree = "<group>"; };
+		FEB83C2A14AF10B900396FD6 /* XEKImageField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKImageField.h; sourceTree = "<group>"; };
+		FEB83C2B14AF10B900396FD6 /* XEKLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKLayer.h; sourceTree = "<group>"; };
+		FEB83C2C14AF10B900396FD6 /* XEKListBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKListBox.h; sourceTree = "<group>"; };
+		FEB83C2D14AF10B900396FD6 /* XEKMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKMarker.h; sourceTree = "<group>"; };
+		FEB83C2E14AF10B900396FD6 /* XEKMotionAnimationOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKMotionAnimationOp.h; sourceTree = "<group>"; };
+		FEB83C2F14AF10B900396FD6 /* XEKOutlineElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKOutlineElem.h; sourceTree = "<group>"; };
+		FEB83C3014AF10B900396FD6 /* XEKOutlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKOutlines.h; sourceTree = "<group>"; };
+		FEB83C3114AF10B900396FD6 /* XEKPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPage.h; sourceTree = "<group>"; };
+		FEB83C3214AF10B900396FD6 /* XEKPageBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPageBlock.h; sourceTree = "<group>"; };
+		FEB83C3314AF10B900396FD6 /* XEKParagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKParagraph.h; sourceTree = "<group>"; };
+		FEB83C3414AF10B900396FD6 /* XEKPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPath.h; sourceTree = "<group>"; };
+		FEB83C3514AF10B900396FD6 /* XEKPathEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPathEnumerator.h; sourceTree = "<group>"; };
+		FEB83C3614AF10B900396FD6 /* XEKPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPattern.h; sourceTree = "<group>"; };
+		FEB83C3714AF10B900396FD6 /* XEKPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPiece.h; sourceTree = "<group>"; };
+		FEB83C3814AF10B900396FD6 /* XEKPieceStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPieceStyle.h; sourceTree = "<group>"; };
+		FEB83C3914AF10B900396FD6 /* XEKRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRadio.h; sourceTree = "<group>"; };
+		FEB83C3A14AF10B900396FD6 /* XEKRadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRadioGroup.h; sourceTree = "<group>"; };
+		FEB83C3B14AF10B900396FD6 /* XEKReferenceObjList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKReferenceObjList.h; sourceTree = "<group>"; };
+		FEB83C3C14AF10B900396FD6 /* XEKRegionArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRegionArea.h; sourceTree = "<group>"; };
+		FEB83C3D14AF10B900396FD6 /* XEKResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKResource.h; sourceTree = "<group>"; };
+		FEB83C3E14AF10B900396FD6 /* XEKResourceCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKResourceCollection.h; sourceTree = "<group>"; };
+		FEB83C3F14AF10B900396FD6 /* XEKRichTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRichTextField.h; sourceTree = "<group>"; };
+		FEB83C4014AF10B900396FD6 /* XEKRubyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKRubyGroup.h; sourceTree = "<group>"; };
+		FEB83C4114AF10B900396FD6 /* XEKScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKScript.h; sourceTree = "<group>"; };
+		FEB83C4214AF10B900396FD6 /* XEKSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSection.h; sourceTree = "<group>"; };
+		FEB83C4314AF10B900396FD6 /* XEKSectionComp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSectionComp.h; sourceTree = "<group>"; };
+		FEB83C4414AF10B900396FD6 /* XEKSetAnimationOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSetAnimationOp.h; sourceTree = "<group>"; };
+		FEB83C4514AF10B900396FD6 /* XEKShading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKShading.h; sourceTree = "<group>"; };
+		FEB83C4614AF10B900396FD6 /* XEKSimpleAnimationOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKSimpleAnimationOp.h; sourceTree = "<group>"; };
+		FEB83C4714AF10B900396FD6 /* XEKStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStory.h; sourceTree = "<group>"; };
+		FEB83C4814AF10B900396FD6 /* XEKStructureDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStructureDoc.h; sourceTree = "<group>"; };
+		FEB83C4914AF10B900396FD6 /* XEKStyleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStyleTable.h; sourceTree = "<group>"; };
+		FEB83C4A14AF10B900396FD6 /* XEKTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTable.h; sourceTree = "<group>"; };
+		FEB83C4B14AF10B900396FD6 /* XEKTemplatePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTemplatePage.h; sourceTree = "<group>"; };
+		FEB83C4C14AF10B900396FD6 /* XEKText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKText.h; sourceTree = "<group>"; };
+		FEB83C4D14AF10B900396FD6 /* XEKTextCodeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTextCodeEnumerator.h; sourceTree = "<group>"; };
+		FEB83C4E14AF10B900396FD6 /* XEKTextEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTextEnumerator.h; sourceTree = "<group>"; };
+		FEB83C4F14AF10B900396FD6 /* XEKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTextField.h; sourceTree = "<group>"; };
+		FEB83C5014AF10B900396FD6 /* XEKTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTimeLine.h; sourceTree = "<group>"; };
+		FEB83C5114AF10B900396FD6 /* XEKVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKVideo.h; sourceTree = "<group>"; };
+		FEB83C5314AF10B900396FD6 /* CEBXEditorViewAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBXEditorViewAPI.h; sourceTree = "<group>"; };
+		FEB83C5414AF10B900396FD6 /* XEKDocToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKDocToolkit.h; sourceTree = "<group>"; };
+		FEB83C5514AF10B900396FD6 /* XEKPageDistiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPageDistiller.h; sourceTree = "<group>"; };
+		FEB83C5614AF10B900396FD6 /* XEKPagePieceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKPagePieceManager.h; sourceTree = "<group>"; };
+		FEB83C5714AF10B900396FD6 /* XEKStructureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKStructureView.h; sourceTree = "<group>"; };
+		FEB83C5814AF10B900396FD6 /* XEKCBFileOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKCBFileOP.h; sourceTree = "<group>"; };
+		FEB83C5914AF10B900396FD6 /* XEKTextRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKTextRenderer.h; sourceTree = "<group>"; };
+		FEB83C5A14AF10B900396FD6 /* XEKUnknown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEKUnknown.h; sourceTree = "<group>"; };
+		FEB83C5D14AF10BF00396FD6 /* CEBX_A_v1.0.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_A_v1.0.bsg; sourceTree = "<group>"; };
+		FEB83C5E14AF10BF00396FD6 /* CEBX_A_v1.1.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_A_v1.1.bsg; sourceTree = "<group>"; };
+		FEB83C5F14AF10BF00396FD6 /* CEBX_A_v1.2.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_A_v1.2.bsg; sourceTree = "<group>"; };
+		FEB83C6014AF10BF00396FD6 /* CEBX_Full_v1.0.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_Full_v1.0.bsg; sourceTree = "<group>"; };
+		FEB83C6114AF10BF00396FD6 /* CEBX_Full_v1.1.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_Full_v1.1.bsg; sourceTree = "<group>"; };
+		FEB83C6214AF10BF00396FD6 /* CEBX_Full_v1.2.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_Full_v1.2.bsg; sourceTree = "<group>"; };
+		FEB83C6314AF10BF00396FD6 /* CEBX_M_v1.1.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_M_v1.1.bsg; sourceTree = "<group>"; };
+		FEB83C6414AF10BF00396FD6 /* CEBX_M_v1.2.bsg */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_M_v1.2.bsg; sourceTree = "<group>"; };
+		FEB83C6614AF10C000396FD6 /* EUtoGBK.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUtoGBK.dat; sourceTree = "<group>"; };
+		FEB83C6714AF10C000396FD6 /* empty.cebx */ = {isa = PBXFileReference; lastKnownFileType = file; path = empty.cebx; sourceTree = "<group>"; };
+		FEB83C6914AF10C000396FD6 /* Eu-bx.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eu-bx.ttf"; sourceTree = "<group>"; };
+		FEB83C6A14AF10C000396FD6 /* Eu-bz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eu-bz.ttf"; sourceTree = "<group>"; };
+		FEB83C6B14AF10C000396FD6 /* Eu-fx.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eu-fx.ttf"; sourceTree = "<group>"; };
+		FEB83C6C14AF10C000396FD6 /* Eu-fz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eu-fz.ttf"; sourceTree = "<group>"; };
+		FEB83C6D14AF10C000396FD6 /* Eu-hx.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eu-hx.ttf"; sourceTree = "<group>"; };
+		FEB83C6E14AF10C000396FD6 /* Eu-hz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eu-hz.ttf"; sourceTree = "<group>"; };
+		FEB83C6F14AF10C000396FD6 /* Fzcob.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzcob.ttf; sourceTree = "<group>"; };
+		FEB83C7014AF10C000396FD6 /* Fzcobo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzcobo.ttf; sourceTree = "<group>"; };
+		FEB83C7114AF10C000396FD6 /* Fzcom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzcom.ttf; sourceTree = "<group>"; };
+		FEB83C7214AF10C000396FD6 /* Fzcoo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzcoo.ttf; sourceTree = "<group>"; };
+		FEB83C7314AF10C000396FD6 /* Fzhv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzhv.ttf; sourceTree = "<group>"; };
+		FEB83C7414AF10C000396FD6 /* Fzhvb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzhvb.ttf; sourceTree = "<group>"; };
+		FEB83C7514AF10C000396FD6 /* Fzhvbo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzhvbo.ttf; sourceTree = "<group>"; };
+		FEB83C7614AF10C000396FD6 /* Fzhvo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzhvo.ttf; sourceTree = "<group>"; };
+		FEB83C7714AF10C000396FD6 /* Fzsy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzsy.ttf; sourceTree = "<group>"; };
+		FEB83C7814AF10C000396FD6 /* Fztib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fztib.ttf; sourceTree = "<group>"; };
+		FEB83C7914AF10C000396FD6 /* Fztibi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fztibi.ttf; sourceTree = "<group>"; };
+		FEB83C7A14AF10C000396FD6 /* Fztii.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fztii.ttf; sourceTree = "<group>"; };
+		FEB83C7B14AF10C000396FD6 /* Fztir.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fztir.ttf; sourceTree = "<group>"; };
+		FEB83C7C14AF10C000396FD6 /* Fzzd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fzzd.ttf; sourceTree = "<group>"; };
+		FEB83C7E14AF10C000396FD6 /* Blocks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Blocks.txt; sourceTree = "<group>"; };
+		FEB83C7F14AF10C000396FD6 /* de.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = de.txt; sourceTree = "<group>"; };
+		FEB83C8014AF10C000396FD6 /* en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.txt; sourceTree = "<group>"; };
+		FEB83C8214AF10C000396FD6 /* de-traditional.pattern */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "de-traditional.pattern"; sourceTree = "<group>"; };
+		FEB83C8314AF10C000396FD6 /* de.pattern */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = de.pattern; sourceTree = "<group>"; };
+		FEB83C8414AF10C000396FD6 /* en.pattern */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.pattern; sourceTree = "<group>"; };
+		FEB83C8514AF10C000396FD6 /* en.pattern.exception */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.pattern.exception; sourceTree = "<group>"; };
+		FEB83CAB14AF10CC00396FD6 /* libkernel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkernel.a; path = "../../北方图书/XEK_for_iOS/Libs/Simulator/libkernel.a"; sourceTree = "<group>"; };
+		FEDE5ACA1491E4CB00164B7E /* CEBXEditorKernel接口文档.cebx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CEBXEditorKernel接口文档.cebx"; sourceTree = "<group>"; };
+		FEDE5ACB1491E4CB00164B7E /* CEBXEditorKernel开发手册.cebx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CEBXEditorKernel开发手册.cebx"; sourceTree = "<group>"; };
+		FEEBC58B148EFD2600D9B023 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEEBC596148EFF5800D9B023 /* CEBX_M_v1.2_Spec.cebx */ = {isa = PBXFileReference; lastKnownFileType = file; path = CEBX_M_v1.2_Spec.cebx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE48E132148E124C00E56032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE48E13A148E124C00E56032 /* UIKit.framework in Frameworks */,
+				FE48E13C148E124C00E56032 /* Foundation.framework in Frameworks */,
+				FE48E13E148E124C00E56032 /* CoreGraphics.framework in Frameworks */,
+				FEEBC58C148EFD2600D9B023 /* QuartzCore.framework in Frameworks */,
+				FEB83CAC14AF10CC00396FD6 /* libkernel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE48E12A148E124C00E56032 = {
+			isa = PBXGroup;
+			children = (
+				FE48E13F148E124C00E56032 /* CEBXReaderDemo */,
+				FE48E138148E124C00E56032 /* Frameworks */,
+				FE48E136148E124C00E56032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE48E136148E124C00E56032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE48E135148E124C00E56032 /* CEBXReaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE48E138148E124C00E56032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83CAB14AF10CC00396FD6 /* libkernel.a */,
+				FEEBC58B148EFD2600D9B023 /* QuartzCore.framework */,
+				FE48E139148E124C00E56032 /* UIKit.framework */,
+				FE48E13B148E124C00E56032 /* Foundation.framework */,
+				FE48E13D148E124C00E56032 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE48E13F148E124C00E56032 /* CEBXReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83BA714AF10B900396FD6 /* CEBXEditorKernel */,
+				FE964D0E14972D2E00283109 /* ComFun.h */,
+				FE964D0F14972D2E00283109 /* ComFun.m */,
+				FE48E148148E124C00E56032 /* CEBXReaderDemoAppDelegate.h */,
+				FE48E149148E124C00E56032 /* CEBXReaderDemoAppDelegate.m */,
+				FE48E14B148E124C00E56032 /* MainWindow.xib */,
+				FE48E14E148E124C00E56032 /* FirstViewController.h */,
+				FE48E14F148E124C00E56032 /* FirstViewController.mm */,
+				FE48E151148E124C00E56032 /* SecondViewController.h */,
+				FE48E152148E124C00E56032 /* SecondViewController.m */,
+				FE48E154148E124C00E56032 /* FirstView.xib */,
+				FE48E157148E124C00E56032 /* SecondView.xib */,
+				FE48E140148E124C00E56032 /* Supporting Files */,
+			);
+			path = CEBXReaderDemo;
+			sourceTree = "<group>";
+		};
+		FE48E140148E124C00E56032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9B007416675D5B008EFA8F /* Screen Shot 2012-11-29 at 下午5.07.15.png */,
+				FEB83C5B14AF10BF00396FD6 /* Resource */,
+				FE964D0914972D0800283109 /* DroidSansFallback.ttf */,
+				FE964D0A14972D0800283109 /* DroidSerif-Regular.ttf */,
+				FEDE5ACA1491E4CB00164B7E /* CEBXEditorKernel接口文档.cebx */,
+				FEDE5ACB1491E4CB00164B7E /* CEBXEditorKernel开发手册.cebx */,
+				FEEBC596148EFF5800D9B023 /* CEBX_M_v1.2_Spec.cebx */,
+				FE48E141148E124C00E56032 /* CEBXReaderDemo-Info.plist */,
+				FE48E142148E124C00E56032 /* InfoPlist.strings */,
+				FE48E145148E124C00E56032 /* CEBXReaderDemo-Prefix.pch */,
+				FE48E146148E124C00E56032 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB83BA714AF10B900396FD6 /* CEBXEditorKernel */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83BA814AF10B900396FD6 /* ActionTypeDef.h */,
+				FEB83BA914AF10B900396FD6 /* ByteAlignPop.h */,
+				FEB83BAA14AF10B900396FD6 /* ByteAlignPush.h */,
+				FEB83BAB14AF10B900396FD6 /* CEBXEditorAPI.h */,
+				FEB83BAC14AF10B900396FD6 /* CEBXEditorDef.h */,
+				FEB83BAD14AF10B900396FD6 /* CEBXEKCode.h */,
+				FEB83BAE14AF10B900396FD6 /* CEBXRetCode.h */,
+				FEB83BAF14AF10B900396FD6 /* Edit */,
+				FEB83BFB14AF10B900396FD6 /* KernelDef.h */,
+				FEB83BFC14AF10B900396FD6 /* Obj */,
+				FEB83C5214AF10B900396FD6 /* View */,
+				FEB83C5814AF10B900396FD6 /* XEKCBFileOP.h */,
+				FEB83C5914AF10B900396FD6 /* XEKTextRenderer.h */,
+				FEB83C5A14AF10B900396FD6 /* XEKUnknown.h */,
+			);
+			name = CEBXEditorKernel;
+			path = "../../../北方图书/XEK_for_iOS/Include/CEBXEditorKernel";
+			sourceTree = "<group>";
+		};
+		FEB83BAF14AF10B900396FD6 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83BB014AF10B900396FD6 /* CEBXEditorEditAPI.h */,
+				FEB83BB114AF10B900396FD6 /* XEKActionEditor.h */,
+				FEB83BB214AF10B900396FD6 /* XEKActionGotoEditor.h */,
+				FEB83BB314AF10B900396FD6 /* XEKActionGotoREditor.h */,
+				FEB83BB414AF10B900396FD6 /* XEKActionLaunchEditor.h */,
+				FEB83BB514AF10B900396FD6 /* XEKActionMovieEditor.h */,
+				FEB83BB614AF10B900396FD6 /* XEKActionResetEditor.h */,
+				FEB83BB714AF10B900396FD6 /* XEKActionRunScriptEditor.h */,
+				FEB83BB814AF10B900396FD6 /* XEKActionsEditor.h */,
+				FEB83BB914AF10B900396FD6 /* XEKActionSoundEditor.h */,
+				FEB83BBA14AF10B900396FD6 /* XEKActionSubmitEditor.h */,
+				FEB83BBB14AF10B900396FD6 /* XEKActionURIEditor.h */,
+				FEB83BBC14AF10B900396FD6 /* XEKAnimationEditor.h */,
+				FEB83BBD14AF10B900396FD6 /* XEKAnimationOpEditor.h */,
+				FEB83BBE14AF10B900396FD6 /* XEKAnnotationEditor.h */,
+				FEB83BBF14AF10B900396FD6 /* XEKAudioEditor.h */,
+				FEB83BC014AF10B900396FD6 /* XEKBaseUnitEditor.h */,
+				FEB83BC114AF10B900396FD6 /* XEKButtonEditor.h */,
+				FEB83BC214AF10B900396FD6 /* XEKCEBXFileEditor.h */,
+				FEB83BC314AF10B900396FD6 /* XEKCheckBoxEditor.h */,
+				FEB83BC414AF10B900396FD6 /* XEKClipEditor.h */,
+				FEB83BC514AF10B900396FD6 /* XEKColorAnimationOpEditor.h */,
+				FEB83BC614AF10B900396FD6 /* XEKColorSpaceEditor.h */,
+				FEB83BC714AF10B900396FD6 /* XEKCompositeGraphicUnitEditor.h */,
+				FEB83BC814AF10B900396FD6 /* XEKContentEditor.h */,
+				FEB83BC914AF10B900396FD6 /* XEKControlEditor.h */,
+				FEB83BCA14AF10B900396FD6 /* XEKControlStyleEditor.h */,
+				FEB83BCB14AF10B900396FD6 /* XEKDocEditor.h */,
+				FEB83BCC14AF10B900396FD6 /* XEKDocInfoEditor.h */,
+				FEB83BCD14AF10B900396FD6 /* XEKDrawParamEditor.h */,
+				FEB83BCE14AF10B900396FD6 /* XEKDropdownListEditor.h */,
+				FEB83BCF14AF10B900396FD6 /* XEKFontEditor.h */,
+				FEB83BD014AF10B900396FD6 /* XEKFormBorderEditor.h */,
+				FEB83BD114AF10B900396FD6 /* XEKFormEditor.h */,
+				FEB83BD214AF10B900396FD6 /* XEKFormsEditor.h */,
+				FEB83BD314AF10B900396FD6 /* XEKFragmentEditor.h */,
+				FEB83BD414AF10B900396FD6 /* XEKGraphicRefEditor.h */,
+				FEB83BD514AF10B900396FD6 /* XEKGraphicUnitEditor.h */,
+				FEB83BD614AF10B900396FD6 /* XEKImageEditor.h */,
+				FEB83BD714AF10B900396FD6 /* XEKImageFieldEditor.h */,
+				FEB83BD814AF10B900396FD6 /* XEKLayerEditor.h */,
+				FEB83BD914AF10B900396FD6 /* XEKListBoxEditor.h */,
+				FEB83BDA14AF10B900396FD6 /* XEKMarkerEditor.h */,
+				FEB83BDB14AF10B900396FD6 /* XEKMotionAnimationOpEditor.h */,
+				FEB83BDC14AF10B900396FD6 /* XEKOutlineElemEditor.h */,
+				FEB83BDD14AF10B900396FD6 /* XEKOutlinesEditor.h */,
+				FEB83BDE14AF10B900396FD6 /* XEKPageBlockEditor.h */,
+				FEB83BDF14AF10B900396FD6 /* XEKPageEditor.h */,
+				FEB83BE014AF10B900396FD6 /* XEKParagraphEditor.h */,
+				FEB83BE114AF10B900396FD6 /* XEKPathEditor.h */,
+				FEB83BE214AF10B900396FD6 /* XEKPatternEditor.h */,
+				FEB83BE314AF10B900396FD6 /* XEKPieceEditor.h */,
+				FEB83BE414AF10B900396FD6 /* XEKPieceStyleEditor.h */,
+				FEB83BE514AF10B900396FD6 /* XEKRadioEditor.h */,
+				FEB83BE614AF10B900396FD6 /* XEKRadioGroupEditor.h */,
+				FEB83BE714AF10B900396FD6 /* XEKReferenceObjListEditor.h */,
+				FEB83BE814AF10B900396FD6 /* XEKRegionAreaEditor.h */,
+				FEB83BE914AF10B900396FD6 /* XEKResourceCollectionEditor.h */,
+				FEB83BEA14AF10B900396FD6 /* XEKResourceEditor.h */,
+				FEB83BEB14AF10B900396FD6 /* XEKRichTextFieldEditor.h */,
+				FEB83BEC14AF10B900396FD6 /* XEKRubyGroupEditor.h */,
+				FEB83BED14AF10B900396FD6 /* XEKScriptEditor.h */,
+				FEB83BEE14AF10B900396FD6 /* XEKSectionEditor.h */,
+				FEB83BEF14AF10B900396FD6 /* XEKSetAnimationOpEditor.h */,
+				FEB83BF014AF10B900396FD6 /* XEKShadingEditor.h */,
+				FEB83BF114AF10B900396FD6 /* XEKSimpleAnimationOpEditor.h */,
+				FEB83BF214AF10B900396FD6 /* XEKStoryEditor.h */,
+				FEB83BF314AF10B900396FD6 /* XEKStructureDocEditor.h */,
+				FEB83BF414AF10B900396FD6 /* XEKStyleTableEditor.h */,
+				FEB83BF514AF10B900396FD6 /* XEKTableEditor.h */,
+				FEB83BF614AF10B900396FD6 /* XEKTemplatePageEditor.h */,
+				FEB83BF714AF10B900396FD6 /* XEKTextEditor.h */,
+				FEB83BF814AF10B900396FD6 /* XEKTextFieldEditor.h */,
+				FEB83BF914AF10B900396FD6 /* XEKTimeLineEditor.h */,
+				FEB83BFA14AF10B900396FD6 /* XEKVideoEditor.h */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		FEB83BFC14AF10B900396FD6 /* Obj */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83BFD14AF10B900396FD6 /* CEBXEditorObjAPI.h */,
+				FEB83BFE14AF10B900396FD6 /* XEKAction.h */,
+				FEB83BFF14AF10B900396FD6 /* XEKActionGoto.h */,
+				FEB83C0014AF10B900396FD6 /* XEKActionGotoR.h */,
+				FEB83C0114AF10B900396FD6 /* XEKActionLaunch.h */,
+				FEB83C0214AF10B900396FD6 /* XEKActionMovie.h */,
+				FEB83C0314AF10B900396FD6 /* XEKActionOp.h */,
+				FEB83C0414AF10B900396FD6 /* XEKActionReset.h */,
+				FEB83C0514AF10B900396FD6 /* XEKActionRunScript.h */,
+				FEB83C0614AF10B900396FD6 /* XEKActions.h */,
+				FEB83C0714AF10B900396FD6 /* XEKActionSound.h */,
+				FEB83C0814AF10B900396FD6 /* XEKActionSubmit.h */,
+				FEB83C0914AF10B900396FD6 /* XEKActionURI.h */,
+				FEB83C0A14AF10B900396FD6 /* XEKAnimation.h */,
+				FEB83C0B14AF10B900396FD6 /* XEKAnimationOp.h */,
+				FEB83C0C14AF10B900396FD6 /* XEKAnnotation.h */,
+				FEB83C0D14AF10B900396FD6 /* XEKAudio.h */,
+				FEB83C0E14AF10B900396FD6 /* XEKBaseUnit.h */,
+				FEB83C0F14AF10B900396FD6 /* XEKButton.h */,
+				FEB83C1014AF10B900396FD6 /* XEKCEBXFile.h */,
+				FEB83C1114AF10B900396FD6 /* XEKCheckBox.h */,
+				FEB83C1214AF10B900396FD6 /* XEKClip.h */,
+				FEB83C1314AF10B900396FD6 /* XEKColorAnimationOp.h */,
+				FEB83C1414AF10B900396FD6 /* XEKColorSpace.h */,
+				FEB83C1514AF10B900396FD6 /* XEKCompositeGraphicUnit.h */,
+				FEB83C1614AF10B900396FD6 /* XEKContent.h */,
+				FEB83C1714AF10B900396FD6 /* XEKControl.h */,
+				FEB83C1814AF10B900396FD6 /* XEKControlStyle.h */,
+				FEB83C1914AF10B900396FD6 /* XEKCoreDependency.h */,
+				FEB83C1A14AF10B900396FD6 /* XEKDoc.h */,
+				FEB83C1B14AF10B900396FD6 /* XEKDocInfo.h */,
+				FEB83C1C14AF10B900396FD6 /* XEKDrawParam.h */,
+				FEB83C1D14AF10B900396FD6 /* XEKDropdownList.h */,
+				FEB83C1E14AF10B900396FD6 /* XEKEnumerators.h */,
+				FEB83C1F14AF10B900396FD6 /* XEKFont.h */,
+				FEB83C2014AF10B900396FD6 /* XEKForm.h */,
+				FEB83C2114AF10B900396FD6 /* XEKFormBorder.h */,
+				FEB83C2214AF10B900396FD6 /* XEKForms.h */,
+				FEB83C2314AF10B900396FD6 /* XEKFragment.h */,
+				FEB83C2414AF10B900396FD6 /* XEKFragmentComp.h */,
+				FEB83C2514AF10B900396FD6 /* XEKGraphicRef.h */,
+				FEB83C2614AF10B900396FD6 /* XEKGraphicRefEnumerator.h */,
+				FEB83C2714AF10B900396FD6 /* XEKGraphicUnit.h */,
+				FEB83C2814AF10B900396FD6 /* XEKImage.h */,
+				FEB83C2914AF10B900396FD6 /* XEKImageEnumerator.h */,
+				FEB83C2A14AF10B900396FD6 /* XEKImageField.h */,
+				FEB83C2B14AF10B900396FD6 /* XEKLayer.h */,
+				FEB83C2C14AF10B900396FD6 /* XEKListBox.h */,
+				FEB83C2D14AF10B900396FD6 /* XEKMarker.h */,
+				FEB83C2E14AF10B900396FD6 /* XEKMotionAnimationOp.h */,
+				FEB83C2F14AF10B900396FD6 /* XEKOutlineElem.h */,
+				FEB83C3014AF10B900396FD6 /* XEKOutlines.h */,
+				FEB83C3114AF10B900396FD6 /* XEKPage.h */,
+				FEB83C3214AF10B900396FD6 /* XEKPageBlock.h */,
+				FEB83C3314AF10B900396FD6 /* XEKParagraph.h */,
+				FEB83C3414AF10B900396FD6 /* XEKPath.h */,
+				FEB83C3514AF10B900396FD6 /* XEKPathEnumerator.h */,
+				FEB83C3614AF10B900396FD6 /* XEKPattern.h */,
+				FEB83C3714AF10B900396FD6 /* XEKPiece.h */,
+				FEB83C3814AF10B900396FD6 /* XEKPieceStyle.h */,
+				FEB83C3914AF10B900396FD6 /* XEKRadio.h */,
+				FEB83C3A14AF10B900396FD6 /* XEKRadioGroup.h */,
+				FEB83C3B14AF10B900396FD6 /* XEKReferenceObjList.h */,
+				FEB83C3C14AF10B900396FD6 /* XEKRegionArea.h */,
+				FEB83C3D14AF10B900396FD6 /* XEKResource.h */,
+				FEB83C3E14AF10B900396FD6 /* XEKResourceCollection.h */,
+				FEB83C3F14AF10B900396FD6 /* XEKRichTextField.h */,
+				FEB83C4014AF10B900396FD6 /* XEKRubyGroup.h */,
+				FEB83C4114AF10B900396FD6 /* XEKScript.h */,
+				FEB83C4214AF10B900396FD6 /* XEKSection.h */,
+				FEB83C4314AF10B900396FD6 /* XEKSectionComp.h */,
+				FEB83C4414AF10B900396FD6 /* XEKSetAnimationOp.h */,
+				FEB83C4514AF10B900396FD6 /* XEKShading.h */,
+				FEB83C4614AF10B900396FD6 /* XEKSimpleAnimationOp.h */,
+				FEB83C4714AF10B900396FD6 /* XEKStory.h */,
+				FEB83C4814AF10B900396FD6 /* XEKStructureDoc.h */,
+				FEB83C4914AF10B900396FD6 /* XEKStyleTable.h */,
+				FEB83C4A14AF10B900396FD6 /* XEKTable.h */,
+				FEB83C4B14AF10B900396FD6 /* XEKTemplatePage.h */,
+				FEB83C4C14AF10B900396FD6 /* XEKText.h */,
+				FEB83C4D14AF10B900396FD6 /* XEKTextCodeEnumerator.h */,
+				FEB83C4E14AF10B900396FD6 /* XEKTextEnumerator.h */,
+				FEB83C4F14AF10B900396FD6 /* XEKTextField.h */,
+				FEB83C5014AF10B900396FD6 /* XEKTimeLine.h */,
+				FEB83C5114AF10B900396FD6 /* XEKVideo.h */,
+			);
+			path = Obj;
+			sourceTree = "<group>";
+		};
+		FEB83C5214AF10B900396FD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C5314AF10B900396FD6 /* CEBXEditorViewAPI.h */,
+				FEB83C5414AF10B900396FD6 /* XEKDocToolkit.h */,
+				FEB83C5514AF10B900396FD6 /* XEKPageDistiller.h */,
+				FEB83C5614AF10B900396FD6 /* XEKPagePieceManager.h */,
+				FEB83C5714AF10B900396FD6 /* XEKStructureView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEB83C5B14AF10BF00396FD6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C5C14AF10BF00396FD6 /* BinarySchema */,
+				FEB83C6514AF10BF00396FD6 /* CodeConvert */,
+				FEB83C6714AF10C000396FD6 /* empty.cebx */,
+				FEB83C6814AF10C000396FD6 /* Font */,
+				FEB83C7D14AF10C000396FD6 /* GuessLanguage */,
+				FEB83C8114AF10C000396FD6 /* Hyphen */,
+			);
+			name = Resource;
+			path = "../../../北方图书/XEK_for_iOS/Resource";
+			sourceTree = "<group>";
+		};
+		FEB83C5C14AF10BF00396FD6 /* BinarySchema */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C5D14AF10BF00396FD6 /* CEBX_A_v1.0.bsg */,
+				FEB83C5E14AF10BF00396FD6 /* CEBX_A_v1.1.bsg */,
+				FEB83C5F14AF10BF00396FD6 /* CEBX_A_v1.2.bsg */,
+				FEB83C6014AF10BF00396FD6 /* CEBX_Full_v1.0.bsg */,
+				FEB83C6114AF10BF00396FD6 /* CEBX_Full_v1.1.bsg */,
+				FEB83C6214AF10BF00396FD6 /* CEBX_Full_v1.2.bsg */,
+				FEB83C6314AF10BF00396FD6 /* CEBX_M_v1.1.bsg */,
+				FEB83C6414AF10BF00396FD6 /* CEBX_M_v1.2.bsg */,
+			);
+			path = BinarySchema;
+			sourceTree = "<group>";
+		};
+		FEB83C6514AF10BF00396FD6 /* CodeConvert */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C6614AF10C000396FD6 /* EUtoGBK.dat */,
+			);
+			path = CodeConvert;
+			sourceTree = "<group>";
+		};
+		FEB83C6814AF10C000396FD6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C6914AF10C000396FD6 /* Eu-bx.ttf */,
+				FEB83C6A14AF10C000396FD6 /* Eu-bz.ttf */,
+				FEB83C6B14AF10C000396FD6 /* Eu-fx.ttf */,
+				FEB83C6C14AF10C000396FD6 /* Eu-fz.ttf */,
+				FEB83C6D14AF10C000396FD6 /* Eu-hx.ttf */,
+				FEB83C6E14AF10C000396FD6 /* Eu-hz.ttf */,
+				FEB83C6F14AF10C000396FD6 /* Fzcob.ttf */,
+				FEB83C7014AF10C000396FD6 /* Fzcobo.ttf */,
+				FEB83C7114AF10C000396FD6 /* Fzcom.ttf */,
+				FEB83C7214AF10C000396FD6 /* Fzcoo.ttf */,
+				FEB83C7314AF10C000396FD6 /* Fzhv.ttf */,
+				FEB83C7414AF10C000396FD6 /* Fzhvb.ttf */,
+				FEB83C7514AF10C000396FD6 /* Fzhvbo.ttf */,
+				FEB83C7614AF10C000396FD6 /* Fzhvo.ttf */,
+				FEB83C7714AF10C000396FD6 /* Fzsy.ttf */,
+				FEB83C7814AF10C000396FD6 /* Fztib.ttf */,
+				FEB83C7914AF10C000396FD6 /* Fztibi.ttf */,
+				FEB83C7A14AF10C000396FD6 /* Fztii.ttf */,
+				FEB83C7B14AF10C000396FD6 /* Fztir.ttf */,
+				FEB83C7C14AF10C000396FD6 /* Fzzd.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FEB83C7D14AF10C000396FD6 /* GuessLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C7E14AF10C000396FD6 /* Blocks.txt */,
+				FEB83C7F14AF10C000396FD6 /* de.txt */,
+				FEB83C8014AF10C000396FD6 /* en.txt */,
+			);
+			path = GuessLanguage;
+			sourceTree = "<group>";
+		};
+		FEB83C8114AF10C000396FD6 /* Hyphen */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83C8214AF10C000396FD6 /* de-traditional.pattern */,
+				FEB83C8314AF10C000396FD6 /* de.pattern */,
+				FEB83C8414AF10C000396FD6 /* en.pattern */,
+				FEB83C8514AF10C000396FD6 /* en.pattern.exception */,
+			);
+			path = Hyphen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE48E134148E124C00E56032 /* CEBXReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE48E15C148E124C00E56032 /* Build configuration list for PBXNativeTarget "CEBXReaderDemo" */;
+			buildPhases = (
+				FE48E131148E124C00E56032 /* Sources */,
+				FE48E132148E124C00E56032 /* Frameworks */,
+				FE48E133148E124C00E56032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEBXReaderDemo;
+			productName = CEBXReaderDemo;
+			productReference = FE48E135148E124C00E56032 /* CEBXReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE48E12C148E124C00E56032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Flower Bridge Technology";
+			};
+			buildConfigurationList = FE48E12F148E124C00E56032 /* Build configuration list for PBXProject "CEBXReaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE48E12A148E124C00E56032;
+			productRefGroup = FE48E136148E124C00E56032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE48E134148E124C00E56032 /* CEBXReaderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE48E133148E124C00E56032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE48E144148E124C00E56032 /* InfoPlist.strings in Resources */,
+				FE48E14D148E124C00E56032 /* MainWindow.xib in Resources */,
+				FE48E156148E124C00E56032 /* FirstView.xib in Resources */,
+				FE48E159148E124C00E56032 /* SecondView.xib in Resources */,
+				FEEBC597148EFF5800D9B023 /* CEBX_M_v1.2_Spec.cebx in Resources */,
+				FEDE5ACC1491E4CB00164B7E /* CEBXEditorKernel接口文档.cebx in Resources */,
+				FEDE5ACD1491E4CB00164B7E /* CEBXEditorKernel开发手册.cebx in Resources */,
+				FE964D0B14972D0800283109 /* DroidSansFallback.ttf in Resources */,
+				FE964D0C14972D0800283109 /* DroidSerif-Regular.ttf in Resources */,
+				FEB83C8614AF10C000396FD6 /* CEBX_A_v1.0.bsg in Resources */,
+				FEB83C8714AF10C000396FD6 /* CEBX_A_v1.1.bsg in Resources */,
+				FEB83C8814AF10C000396FD6 /* CEBX_A_v1.2.bsg in Resources */,
+				FEB83C8914AF10C000396FD6 /* CEBX_Full_v1.0.bsg in Resources */,
+				FEB83C8A14AF10C000396FD6 /* CEBX_Full_v1.1.bsg in Resources */,
+				FEB83C8B14AF10C000396FD6 /* CEBX_Full_v1.2.bsg in Resources */,
+				FEB83C8C14AF10C000396FD6 /* CEBX_M_v1.1.bsg in Resources */,
+				FEB83C8D14AF10C000396FD6 /* CEBX_M_v1.2.bsg in Resources */,
+				FEB83C8E14AF10C000396FD6 /* EUtoGBK.dat in Resources */,
+				FEB83C8F14AF10C000396FD6 /* empty.cebx in Resources */,
+				FEB83C9014AF10C000396FD6 /* Eu-bx.ttf in Resources */,
+				FEB83C9114AF10C000396FD6 /* Eu-bz.ttf in Resources */,
+				FEB83C9214AF10C000396FD6 /* Eu-fx.ttf in Resources */,
+				FEB83C9314AF10C000396FD6 /* Eu-fz.ttf in Resources */,
+				FEB83C9414AF10C000396FD6 /* Eu-hx.ttf in Resources */,
+				FEB83C9514AF10C000396FD6 /* Eu-hz.ttf in Resources */,
+				FEB83C9614AF10C000396FD6 /* Fzcob.ttf in Resources */,
+				FEB83C9714AF10C000396FD6 /* Fzcobo.ttf in Resources */,
+				FEB83C9814AF10C000396FD6 /* Fzcom.ttf in Resources */,
+				FEB83C9914AF10C000396FD6 /* Fzcoo.ttf in Resources */,
+				FEB83C9A14AF10C000396FD6 /* Fzhv.ttf in Resources */,
+				FEB83C9B14AF10C000396FD6 /* Fzhvb.ttf in Resources */,
+				FEB83C9C14AF10C000396FD6 /* Fzhvbo.ttf in Resources */,
+				FEB83C9D14AF10C000396FD6 /* Fzhvo.ttf in Resources */,
+				FEB83C9E14AF10C000396FD6 /* Fzsy.ttf in Resources */,
+				FEB83C9F14AF10C000396FD6 /* Fztib.ttf in Resources */,
+				FEB83CA014AF10C000396FD6 /* Fztibi.ttf in Resources */,
+				FEB83CA114AF10C000396FD6 /* Fztii.ttf in Resources */,
+				FEB83CA214AF10C000396FD6 /* Fztir.ttf in Resources */,
+				FEB83CA314AF10C000396FD6 /* Fzzd.ttf in Resources */,
+				FEB83CA414AF10C000396FD6 /* Blocks.txt in Resources */,
+				FEB83CA514AF10C000396FD6 /* de.txt in Resources */,
+				FEB83CA614AF10C000396FD6 /* en.txt in Resources */,
+				FEB83CA714AF10C000396FD6 /* de-traditional.pattern in Resources */,
+				FEB83CA814AF10C000396FD6 /* de.pattern in Resources */,
+				FEB83CA914AF10C000396FD6 /* en.pattern in Resources */,
+				FEB83CAA14AF10C000396FD6 /* en.pattern.exception in Resources */,
+				6F9B007516675D5B008EFA8F /* Screen Shot 2012-11-29 at 下午5.07.15.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE48E131148E124C00E56032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE48E147148E124C00E56032 /* main.m in Sources */,
+				FE48E14A148E124C00E56032 /* CEBXReaderDemoAppDelegate.m in Sources */,
+				FE48E150148E124C00E56032 /* FirstViewController.mm in Sources */,
+				FE48E153148E124C00E56032 /* SecondViewController.m in Sources */,
+				FE964D1014972D2E00283109 /* ComFun.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE48E142148E124C00E56032 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE48E143148E124C00E56032 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE48E14B148E124C00E56032 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE48E14C148E124C00E56032 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FE48E154148E124C00E56032 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE48E155148E124C00E56032 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		FE48E157148E124C00E56032 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE48E158148E124C00E56032 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE48E15A148E124C00E56032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FE48E15B148E124C00E56032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FE48E15D148E124C00E56032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEBXReaderDemo/CEBXReaderDemo-Prefix.pch";
+				INFOPLIST_FILE = "CEBXReaderDemo/CEBXReaderDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../北方图书/XEK_for_iOS/Libs/Simulator\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-liconv",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE48E15E148E124C00E56032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CEBXReaderDemo/CEBXReaderDemo-Prefix.pch";
+				INFOPLIST_FILE = "CEBXReaderDemo/CEBXReaderDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../北方图书/XEK_for_iOS/Libs/Simulator\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-liconv",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE48E12F148E124C00E56032 /* Build configuration list for PBXProject "CEBXReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE48E15A148E124C00E56032 /* Debug */,
+				FE48E15B148E124C00E56032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE48E15C148E124C00E56032 /* Build configuration list for PBXNativeTarget "CEBXReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE48E15D148E124C00E56032 /* Debug */,
+				FE48E15E148E124C00E56032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE48E12C148E124C00E56032 /* Project object */;
+}
